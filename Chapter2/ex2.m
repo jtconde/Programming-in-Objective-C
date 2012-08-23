@@ -1,5 +1,5 @@
 // boilerPlate.m -- Displays a text
-// Chapter 2 Exercise 2 from the book "Programming in Objective-C"
+// Chapter 2 Exercise 2
 
 #import <Foundation/Foundation.h>
 
