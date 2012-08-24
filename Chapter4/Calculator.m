@@ -136,7 +136,7 @@
 int main(int argc, char const *argv[])
 {
     @autoreleasepool {
-        Calculator *deskCalc = [[Calculator alloc] init];
+        Calculator* deskCalc = [[Calculator alloc] init];
 
         [deskCalc setAccumulator: 100.0];
         double accum = [deskCalc accumulator];
