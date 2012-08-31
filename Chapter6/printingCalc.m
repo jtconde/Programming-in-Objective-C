@@ -1,5 +1,5 @@
 // printingCalc.m -- A simple printing calculator.
-// Chapter 6 exercise 5
+// Chapter 6 exercise 4
 
 #import <Foundation/Foundation.h>
 
