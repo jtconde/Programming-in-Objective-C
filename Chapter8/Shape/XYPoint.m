@@ -1,5 +1,5 @@
 // Funtion implementation of the XYPoint class
-// Chapter 8 exercise 2
+// Chapter 8 exercises 2 and 4
 #import "XYPoint.h"
 
 @implementation XYPoint

@@ -1,5 +1,5 @@
 // Function implementations for Rectangle Class.
-// Chapter 8 exercise 2
+// Chapter 8 exercises 2 and 4
 
 #import "Rectangle.h"
 
@@ -35,4 +35,10 @@
 {
     return origin;
 }
+
+- (void) translate: (XYPoint*) pt
+{
+    origin = pt;
+}
+
 @end

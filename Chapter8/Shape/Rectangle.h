@@ -1,5 +1,5 @@
 // Function definition for Rectangle Class.
-// Chapter 8 exercise 2
+// Chapter 8 exercises 2 and 4
 #import <Foundation/Foundation.h>
 
 @class XYPoint;
@@ -12,4 +12,5 @@
 - (void) setWidth: (double) w andHeight: (double) h;
 - (double) area;
 - (double) perimeter;
+- (void) translate: (XYPoint*) pt;
 @end
