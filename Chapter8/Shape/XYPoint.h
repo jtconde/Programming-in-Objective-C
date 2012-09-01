@@ -1,5 +1,5 @@
 // Defines the XYPoint Class
-// Chapter 8 exercises 2 and 4
+// Chapter 8 exercises 2, 4 and 6
 
 #import <Foundation/Foundation.h>
 

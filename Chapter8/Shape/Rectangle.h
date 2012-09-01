@@ -1,8 +1,8 @@
 // Function definition for Rectangle Class.
-// Chapter 8 exercises 2 and 4
+// Chapter 8 exercises 2, 4 and 6
 #import <Foundation/Foundation.h>
+#import "XYPoint.h"
 
-@class XYPoint;
 @interface Rectangle: NSObject
 
 @property double width, height;
@@ -13,4 +13,6 @@
 - (double) area;
 - (double) perimeter;
 - (void) translate: (XYPoint*) pt;
+// Determines if the rectangle encloses the specified point
+- (BOOL) containsPoint: (XYPoint*) aPoint;
 @end

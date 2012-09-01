@@ -1,5 +1,5 @@
 // Tests the Rectangle class
-// Chapter 8 exercises 2 and 4
+// Chapter 8 exercises 2, 4 and 6
 #import "Rectangle.h"
 #import "XYPoint.h"
 
@@ -21,6 +21,21 @@ int main()
         [myPoint setX: 0 andY: 0];
         myRect.origin = myPoint;
         NSLog(@"Origin at (%.2lf, %.2lf)", myRect.origin.x, myRect.origin.y);
+
+        // Testing is the rectangle contains a point;
+        [myPoint setX: 16.00 andY: 19.0];
+        [myRect setWidth: 5.45 andHeight: 8.2];
+        myRect.origin = myPoint;
+        NSLog(@"Testing containsPoint.");
+        NSLog(@"Origin now at (%.2lf, %.2lf)", myRect.origin.x, myRect.origin.y);
+        if ([myRect containsPoint: myPoint]) {
+            NSLog(@"This rectangle contains (%.2lf, %.2lf)",
+                [myPoint x], [myPoint y]);
+        }
+        else {
+            NSLog(@"This rectangle does not contain (%.2lf, %.2lf)",
+                [myPoint x], [myPoint y]);
+        }
     }
 
     return 0;

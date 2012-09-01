@@ -1,5 +1,5 @@
 // Function implementations for Rectangle Class.
-// Chapter 8 exercises 2 and 4
+// Chapter 8 exercises 2, 4 and 6
 
 #import "Rectangle.h"
 
@@ -39,6 +39,20 @@
 - (void) translate: (XYPoint*) pt
 {
     origin = pt;
+}
+
+- (BOOL) containsPoint: (XYPoint*) aPoint
+{
+    double wOuterBounds = width;
+    double hOuterBounds = height;
+
+    if (aPoint.x > width || aPoint.x < width ||
+        aPoint.y > height || aPoint.y < height) {
+        return NO;
+    }
+    else {
+        return YES;
+    }
 }
 
 @end
