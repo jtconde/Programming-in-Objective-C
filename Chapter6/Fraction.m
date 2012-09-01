@@ -5,19 +5,16 @@
 
 @interface Fraction:NSObject
 
+@property int numerator, denominator;
+
 - (void) print;
-- (void) setNumerator:(int) n;
-- (void) setDenominator:(int) n;
-- (int) numerator;
-- (int) denominator;
 - (double) convertToNum;
+- (void) setTo:(int) n over:(int) d;
 @end
 
 @implementation Fraction
-{
-    int numerator;
-    int denominator;
-}
+
+@synthesize numerator, denominator;
 
 - (void) print
 {
@@ -32,14 +29,10 @@
     }
 }
 
-- (void) setNumerator:(int) n
+- (void) setTo:(int) n over:(int) d
 {
     numerator = n;
-}
-
-- (void) setDenominator:(int) n
-{
-    denominator = n;
+    denominator = d;
 }
 
 - (double) convertToNum
@@ -50,15 +43,6 @@
         return NAN;
 }
 
-- (int) numerator
-{
-    return numerator;
-}
-
-- (int) denominator
-{
-    return denominator;
-}
 @end
 
 int main()
