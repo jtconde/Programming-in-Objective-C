@@ -41,18 +41,19 @@
     Rectangle* result = [[Rectangle alloc] init];
     XYPoint* p = [[XYPoint alloc] init];
 
+
     // Check if the rectangles intersect
+    doesIntersect = YES;
+
     if (self.origin.y > rect.origin.y + rect.height ||
             self.origin.y + height < rect.origin.y) {
-        return NO;
+        doesIntersect = NO;
     }
 
     if (self.origin.x + width < rect.origin.x ||
             rect.origin.x + width < origin.x) {
-        return NO;
+        doesIntersect = NO;
     }
-    // If all the above conditions are false, there is intersection.
-    doesIntersect = YES;
 
     if (doesIntersect) {
         [p setX: rect.width andY: height];
