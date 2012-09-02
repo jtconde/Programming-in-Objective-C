@@ -1,13 +1,15 @@
-#import <Foundation/Foundation.h>
+//
+//  main.m
+//  Chapter9
+//
+//  Created by Akshay on 9/2/12.
+//
+//
 
-int main(int argc, const char * argv[])
+#import "XYPoint.h"
+
+int main()
 {
-
-    @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World! %i");
-        
-    }
+    
     return 0;
 }
-

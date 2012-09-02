@@ -8,8 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		53C2359215F338870056DCC4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53C2359115F338870056DCC4 /* Foundation.framework */; };
-		53C2359515F338870056DCC4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 53C2359415F338870056DCC4 /* main.m */; };
 		53C2359915F338870056DCC4 /* Chapter9.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 53C2359815F338870056DCC4 /* Chapter9.1 */; };
+		53C235A215F33B5E0056DCC4 /* XYPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 53C235A115F33B5E0056DCC4 /* XYPoint.m */; };
+		53C235A515F33C290056DCC4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 53C235A415F33C290056DCC4 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,9 +29,11 @@
 /* Begin PBXFileReference section */
 		53C2358D15F338870056DCC4 /* Chapter9 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Chapter9; sourceTree = BUILT_PRODUCTS_DIR; };
 		53C2359115F338870056DCC4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		53C2359415F338870056DCC4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		53C2359715F338870056DCC4 /* Chapter9-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Chapter9-Prefix.pch"; sourceTree = "<group>"; };
 		53C2359815F338870056DCC4 /* Chapter9.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Chapter9.1; sourceTree = "<group>"; };
+		53C235A015F33A710056DCC4 /* XYPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYPoint.h; sourceTree = "<group>"; };
+		53C235A115F33B5E0056DCC4 /* XYPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYPoint.m; sourceTree = "<group>"; };
+		53C235A415F33C290056DCC4 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,7 +76,7 @@
 		53C2359315F338870056DCC4 /* Chapter9 */ = {
 			isa = PBXGroup;
 			children = (
-				53C2359415F338870056DCC4 /* main.m */,
+				53C2359F15F33A520056DCC4 /* XYPoint */,
 				53C2359815F338870056DCC4 /* Chapter9.1 */,
 				53C2359615F338870056DCC4 /* Supporting Files */,
 			);
@@ -86,6 +89,16 @@
 				53C2359715F338870056DCC4 /* Chapter9-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		53C2359F15F33A520056DCC4 /* XYPoint */ = {
+			isa = PBXGroup;
+			children = (
+				53C235A015F33A710056DCC4 /* XYPoint.h */,
+				53C235A115F33B5E0056DCC4 /* XYPoint.m */,
+				53C235A415F33C290056DCC4 /* main.m */,
+			);
+			name = XYPoint;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +151,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53C2359515F338870056DCC4 /* main.m in Sources */,
+				53C235A215F33B5E0056DCC4 /* XYPoint.m in Sources */,
+				53C235A515F33C290056DCC4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

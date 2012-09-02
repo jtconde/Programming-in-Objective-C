@@ -4,3 +4,5 @@ scratch/*
 .tags*
 html/*
 doxyfile*
+Chapter9/Chapter9.xcodeproj/xcuserdata
+Chapter9/Chapter9.xcodeproj/project.xcworkspace/*
