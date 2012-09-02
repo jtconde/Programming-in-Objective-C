@@ -36,6 +36,16 @@ int main()
             NSLog(@"This rectangle does not contain (%.2lf, %.2lf)",
                 [myPoint x], [myPoint y]);
         }
+
+        // Testing rectangle draw.
+        printf("\n\n");
+        Rectangle* rect = [[Rectangle alloc] init];
+        [rect setWidth: 10 andHeight: 3];
+        [rect draw];
+
+        // Testing rectangle intersect
+        printf("\n\n");
+        Rectangle* rect2 = [[Rectangle alloc] init];
     }
 
     return 0;

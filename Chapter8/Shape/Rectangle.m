@@ -1,5 +1,5 @@
 // Function implementations for Rectangle Class.
-// Chapter 8 exercises 2, 4 and 6
+// Chapter 8 exercises 2, 4 and 6.
 
 #import "Rectangle.h"
 
@@ -54,5 +54,4 @@
         return YES;
     }
 }
-
 @end

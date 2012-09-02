@@ -1,5 +1,5 @@
 // Function definition for Rectangle Class.
-// Chapter 8 exercises 2, 4 and 6.
+// Chapter 8 exercises 7 and 8.
 #import <Foundation/Foundation.h>
 #import "XYPoint.h"
 
@@ -12,8 +12,9 @@
 - (void) setWidth: (double) w andHeight: (double) h;
 - (double) area;
 - (double) perimeter;
-- (void) translate: (XYPoint*) pt;
 
-// Determines if the rectangle encloses the specified point
-- (BOOL) containsPoint: (XYPoint*) aPoint;
+// Returns the rectangle that is created with the
+// intersection of the two rectangles
+- (Rectangle*) intersect: (Rectangle*) rect;
+- (void) draw;
 @end
