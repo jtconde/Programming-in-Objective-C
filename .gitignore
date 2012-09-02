@@ -3,4 +3,4 @@ objc.sublime-*
 scratch/*
 .tags*
 html/*
-doxyfile
+doxyfile*
