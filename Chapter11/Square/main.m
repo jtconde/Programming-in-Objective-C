@@ -1,4 +1,4 @@
-// Tests the Composite Square method.
+// Tests the Composite Square class.
 #import "Square.h"
 #import "Rectangle.h"
 
