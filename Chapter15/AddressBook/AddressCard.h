@@ -1,4 +1,5 @@
 // Interface file for AddressCard
+// Chapter 15 exercises 3, 4, 5 and 6.
 #import <Foundation/Foundation.h>
 
 @interface AddressCard : NSObject
@@ -18,7 +19,15 @@
 - (BOOL) isEqual: (AddressCard*) theCard;
 
 /**
- * Prints the AddressCard in a fancy format
+ * Compares the two names from the specified address cards.
+ * @param element the element to compare with
+ * @return NSOrderedAscending, NSOrderedSame or NSOrderedDecending depending
+ * on the comparison.
+ */
+- (NSComparisonResult) compareNames: (id) element;
+
+/**
+ * Prints the AddressCard in a fancy format.
  */
 - (void) print;
 @end

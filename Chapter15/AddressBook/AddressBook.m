@@ -1,11 +1,12 @@
 // Implementation file for AddressBook
+// Chapter 15 exercises 3, 4, 5 and 6.
 #import "AddressBook.h"
 
 @implementation AddressBook
 
 @synthesize bookName, book;
 
-- (id) initWithName: (NSString*) name
+- (id) initWithName: (NSString *) name
 {
     self = [super init];
 
@@ -25,17 +26,17 @@
     return [self initWithName: @"NoName"];
 }
 
-- (void) addCard: (AddressCard*) theCard
+- (void) addCard: (AddressCard *) theCard
 {
     [book addObject: theCard];
 }
 
-- (void) removeCard: (AddressCard*) theCard
+- (void) removeCard: (AddressCard *) theCard
 {
     [book removeObject: theCard];
 }
 
-- (AddressCard*) lookup: (NSString*) theName
+- (AddressCard*) lookup: (NSString *) theName
 {
     for (AddressCard* nextCard in book) {
         if ([nextCard.name caseInsensitiveCompare: theName] == NSOrderedSame)
@@ -48,6 +49,13 @@
 - (NSUInteger) entries
 {
     return [book count];
+}
+
+- (void) sort
+{
+    [book sortUsingComparator:^(id obj1, id obj2) {
+        return [[obj1 name] compare:[obj2 name]];
+    }];
 }
 
 - (void) list
@@ -64,5 +72,4 @@
     NSLog(@"==============================================================");
 
 }
-
 @end
