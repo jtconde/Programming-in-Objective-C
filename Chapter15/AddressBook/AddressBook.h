@@ -1,5 +1,5 @@
 // Interface file for AddressBook
-// Chapter 15 exercises 3, 4, 5 and 6.
+// Chapter 15 exercises 2, 3, 4, 5 and 6.
 #import <Foundation/Foundation.h>
 #import "AddressCard.h"
 
@@ -35,9 +35,9 @@
 /**
  * Lookup address card by name -- also does partial matches.
  * @param theName the name of the person to search
- * @return a list of cards that partially or fully matches theName
+ * @return an array of cards that partially or fully matches theName
  */
-- (AddressCard *) lookup: (NSString *) theName;
+- (NSMutableArray *) lookup: (NSString *) theName;
 
 /**
  * Sorts the address book using a NSComparator block.

@@ -1,5 +1,5 @@
 // Interface file for AddressCard
-// Chapter 15 exercises 3, 4, 5 and 6.
+// Chapter 15 exercises 2, 3, 4, 5 and 6.
 #import <Foundation/Foundation.h>
 
 @interface AddressCard : NSObject

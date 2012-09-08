@@ -1,5 +1,5 @@
 // Implementation file for AddressBook
-// Chapter 15 exercises 3, 4, 5 and 6.
+// Chapter 15 exercises 2, 3, 4, 5 and 6.
 #import "AddressBook.h"
 
 @implementation AddressBook
@@ -36,16 +36,26 @@
     [book removeObject: theCard];
 }
 
-- (NSArray *) lookup: (NSString *) theName
+- (NSMutableArray *) lookup: (NSString *) theName
 {
-    NSIndexSet *result = [book indexesOfObjectsPassingTest:
-        ^ (id obj, NSUInteger idx, BOOL *stop) {
-            if ([[obj name] caseInsensitiveCompare: theName] == NSOrderedSame)
+    NSMutableArray *result = [[NSMutableArray alloc] init];
+    NSIndexSet *matchingSet = [book indexesOfObjectsPassingTest:
+        ^(id obj, NSUInteger idx, BOOL *stop) {
+            NSRange nameRange = [[obj name] rangeOfString: theName options: NSCaseInsensitiveSearch];
+            NSRange emailRange = [[obj email] rangeOfString: theName options: NSCaseInsensitiveSearch];
+            if (nameRange.location != NSNotFound || emailRange.location != NSNotFound)
                 return YES;
             else
                 return NO;
+
         }];
-    return result;
+
+    [result addObjectsFromArray: [book objectsAtIndexes: matchingSet]];
+
+    if ([result count] == 0)
+        return nil;
+    else
+        return result;
 }
 
 - (NSUInteger) entries
@@ -63,7 +73,6 @@
 
 - (void) list
 {
-    NSLog(@" ");
     NSLog(@" ");
     NSLog(@"======== Contents of: %@ ========", bookName);
 

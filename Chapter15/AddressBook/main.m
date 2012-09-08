@@ -1,5 +1,5 @@
 // Tests the AddressCard Class
-// Chapter 15 exercises 3, 4, 5 and 6.
+// Chapter 15 exercises 2, 3, 4, 5 and 6.
 #import "AddressBook.h"
 
 int main()
@@ -15,6 +15,7 @@ int main()
         NSString *dEmail = @"sergeant_benton@unithq.com";
         NSString *eName = @"Jackelin Hill";
         NSString *eEmail = @"jackelin.hill@gmail.com";
+        NSMutableArray *lookupResults = [[NSMutableArray alloc] init];
 
         AddressCard *card1 = [[AddressCard alloc] init];
         AddressCard *card2 = [[AddressCard alloc] init];
@@ -25,7 +26,6 @@ int main()
         // Set up a new address book
         AddressBook *myBook = [[AddressBook alloc]
             initWithName: @"Sarah Jane Smith's Address Book"];
-        AddressCard *myCard;
 
         // Set up four address cards
         [card1 setName: aName andEmail: aEmail];
@@ -42,18 +42,23 @@ int main()
         [myBook addCard: card5];
 
         // Look up a person by name -- demonstrates multiple matches
-        NSLog(@"Lookup: Jack");
-        myCard = [myBook lookup: @"jack"];
-        if (myCard != nil)
-            [myCard print];
+        NSString *stringLookup = @"jack";
+        NSLog(@"Lookup: %@", stringLookup);
+        lookupResults = [myBook lookup: stringLookup];
+        // Print matching address cards by fast enumerating through the array
+        if (lookupResults != nil) {
+            for (AddressCard *next in lookupResults) {
+                [next print];
+            }
+        }
         else
             NSLog(@"Not found");
 
         NSLog(@" ");
-        NSLog(@"AddressBook entries before sorting:");
+        NSLog(@"AddressBook entries before sorting by name:");
         [myBook list];
         NSLog(@" ");
-        NSLog(@"AddressBook entries after sorting:");
+        NSLog(@"AddressBook entries after sorting by name:");
         [myBook sort];
         [myBook list];
     }
