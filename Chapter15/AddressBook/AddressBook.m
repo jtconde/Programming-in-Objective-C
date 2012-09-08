@@ -21,8 +21,8 @@
 /**
  * Overrides the default init and sets the name to "NoName".
  */
-- (id) init
-{
+ - (id) init
+ {
     return [self initWithName: @"NoName"];
 }
 
@@ -36,14 +36,16 @@
     [book removeObject: theCard];
 }
 
-- (AddressCard*) lookup: (NSString *) theName
+- (NSArray *) lookup: (NSString *) theName
 {
-    for (AddressCard* nextCard in book) {
-        if ([nextCard.name caseInsensitiveCompare: theName] == NSOrderedSame)
-            return nextCard;
-    }
-
-    return nil;
+    NSIndexSet *result = [book indexesOfObjectsPassingTest:
+        ^ (id obj, NSUInteger idx, BOOL *stop) {
+            if ([[obj name] caseInsensitiveCompare: theName] == NSOrderedSame)
+                return YES;
+            else
+                return NO;
+        }];
+    return result;
 }
 
 - (NSUInteger) entries
@@ -53,9 +55,10 @@
 
 - (void) sort
 {
-    [book sortUsingComparator:^(id obj1, id obj2) {
-        return [[obj1 name] compare:[obj2 name]];
-    }];
+    [book sortUsingComparator:
+        ^(id obj1, id obj2) {
+            return [[obj1 name] compare: [obj2 name]];
+        }];
 }
 
 - (void) list

@@ -9,14 +9,14 @@
 /**
  * Set both name and email
  */
-- (void) setName: (NSString*) theName andEmail: (NSString*) theEmail;
+- (void) setName: (NSString *) theName andEmail: (NSString*) theEmail;
 
 /**
  * Tests if two AddressCards are the same
  * @param theCard the address card to compare
  * @return true if they are equal, false if they are not.
  */
-- (BOOL) isEqual: (AddressCard*) theCard;
+- (BOOL) isEqual: (AddressCard *) theCard;
 
 /**
  * Compares the two names from the specified address cards.

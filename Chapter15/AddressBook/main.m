@@ -13,11 +13,14 @@ int main()
         NSString *cEmail = @"captain_jack@torchwood.com";
         NSString *dName = @"John Benton";
         NSString *dEmail = @"sergeant_benton@unithq.com";
+        NSString *eName = @"Jackelin Hill";
+        NSString *eEmail = @"jackelin.hill@gmail.com";
 
         AddressCard *card1 = [[AddressCard alloc] init];
         AddressCard *card2 = [[AddressCard alloc] init];
         AddressCard *card3 = [[AddressCard alloc] init];
         AddressCard *card4 = [[AddressCard alloc] init];
+        AddressCard *card5 = [[AddressCard alloc] init];
 
         // Set up a new address book
         AddressBook *myBook = [[AddressBook alloc]
@@ -29,16 +32,18 @@ int main()
         [card2 setName: bName andEmail: bEmail];
         [card3 setName: cName andEmail: cEmail];
         [card4 setName: dName andEmail: dEmail];
+        [card5 setName: eName andEmail: eEmail];
 
         // Add cards to AddressBook
         [myBook addCard: card1];
         [myBook addCard: card2];
         [myBook addCard: card3];
         [myBook addCard: card4];
+        [myBook addCard: card5];
 
-        // Look up a person by name
-        NSLog(@"Lookup: Jark Harkness");
-        myCard = [myBook lookup: @"jack harkness"];
+        // Look up a person by name -- demonstrates multiple matches
+        NSLog(@"Lookup: Jack");
+        myCard = [myBook lookup: @"jack"];
         if (myCard != nil)
             [myCard print];
         else

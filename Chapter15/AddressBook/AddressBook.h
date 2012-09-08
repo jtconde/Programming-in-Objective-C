@@ -33,11 +33,11 @@
 - (NSUInteger) entries;
 
 /**
- * Lookup address card by name -- assumes an exact match.
+ * Lookup address card by name -- also does partial matches.
  * @param theName the name of the person to search
- * @return If the card exists in the book, returns the card, else returns nil.
+ * @return a list of cards that partially or fully matches theName
  */
-- (AddressCard*) lookup: (NSString *) theName;
+- (AddressCard *) lookup: (NSString *) theName;
 
 /**
  * Sorts the address book using a NSComparator block.
