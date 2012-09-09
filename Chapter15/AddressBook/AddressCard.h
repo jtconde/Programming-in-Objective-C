@@ -23,6 +23,12 @@
     andCountry: (NSString *) Country andPhone: (NSString *) pnumber;
 
 /**
+ * Searches for a match for the indicated string on an address card.
+ * @return YES if it finds a match, otherwise returns NO.
+ */
+- (BOOL) lookupCardForString: (NSString* ) str;
+
+/**
  * Tests if two AddressCards are the same
  * @param theCard the address card to compare
  * @return true if they are equal, false if they are not.

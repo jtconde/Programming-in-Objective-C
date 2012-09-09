@@ -41,21 +41,10 @@
 {
     NSMutableArray *result = [[NSMutableArray alloc] init];
 
-    NSIndexSet *matchingSet = [book indexesOfObjectsPassingTest:
-        ^(id obj, NSUInteger idx, BOOL *stop) {
-            NSRange nameRange = [[obj name] rangeOfString:
-                theName options: NSCaseInsensitiveSearch];
-            NSRange emailRange = [[obj email] rangeOfString:
-                theName options: NSCaseInsensitiveSearch];
-
-            if (nameRange.location != NSNotFound ||
-                emailRange.location != NSNotFound)
-                return YES;
-            else
-                return NO;
-        }];
-
-    [result addObjectsFromArray: [book objectsAtIndexes: matchingSet]];
+    for (AddressCard *next in book) {
+        if ([next lookupCardForString: theName] == YES)
+            [result addObject: next];
+    }
 
     if ([result count] == 0)
         return nil;

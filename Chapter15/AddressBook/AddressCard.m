@@ -10,14 +10,15 @@
 - (void) setFName: (NSString *) first andLName: (NSString *) last
     andEmail: (NSString*) theEmail
 {
-    self.fname = first;
-    self.lname = last;
-    self.email = email;
-    self.state = @" ";
-    self.city  = @" ";
-    self.zip   = @" ";
-    self.country = @" ";
-    self.phone  = @" ";
+    self.fname      = first;
+    self.lname      = last;
+    self.email      = email;
+    // Set the others too so that enumerations in AddressBook don't print null
+    self.state      = @" ";
+    self.city       = @" ";
+    self.zip        = @" ";
+    self.country    = @" ";
+    self.phone      = @" ";
 }
 
 - (void) setFName: (NSString* ) first andLName: (NSString *) last
@@ -37,18 +38,44 @@
 
 - (BOOL) isEqual: (AddressCard *) theCard
 {
-    if ([self.fname isEqualToString: theCard.fname] == YES &&
-        [self.email isEqualToString: theCard.email] == YES &&
-        [self.lname isEqualToString: theCard.lname] == YES &&
-        [self.state isEqualToString: theCard.email] == YES &&
-        [self.city isEqualToString: theCard.city]   == YES &&
-        [self.zip isEqualToString: theCard.zip]     == YES &&
+    if ([self.fname isEqualToString: theCard.fname]     == YES &&
+        [self.email isEqualToString: theCard.email]     == YES &&
+        [self.lname isEqualToString: theCard.lname]     == YES &&
+        [self.state isEqualToString: theCard.email]     == YES &&
+        [self.city isEqualToString: theCard.city]       == YES &&
+        [self.zip isEqualToString: theCard.zip]         == YES &&
         [self.country isEqualToString: theCard.country] == YES &&
-        [self.phone isEqualToString: theCard.phone] == YES)
+        [self.phone isEqualToString: theCard.phone]     == YES)
         return YES;
     else
         return NO;
 
+}
+
+- (BOOL) lookupCardForString: (NSString *) str
+{
+    if ([[self fname] rangeOfString: str
+            options: NSCaseInsensitiveSearch].location != NSNotFound ||
+        [[self lname] rangeOfString: str
+            options: NSCaseInsensitiveSearch].location != NSNotFound ||
+        [[self city] rangeOfString: str
+            options: NSCaseInsensitiveSearch].location != NSNotFound ||
+        [[self state] rangeOfString: str
+            options: NSCaseInsensitiveSearch].location != NSNotFound ||
+        [[self country] rangeOfString: str
+            options: NSCaseInsensitiveSearch].location != NSNotFound ||
+        [[self phone] rangeOfString: str
+            options: NSCaseInsensitiveSearch].location != NSNotFound ||
+        [[self email] rangeOfString: str
+            options: NSCaseInsensitiveSearch].location != NSNotFound ||
+        [[self zip] rangeOfString: str
+            options: NSCaseInsensitiveSearch].location != NSNotFound)
+    {
+        return YES;
+    }
+    else {
+        return NO;
+    }
 }
 
 - (NSComparisonResult) compareNames: (id) element
@@ -59,6 +86,7 @@
 
 - (void) print
 {
+    // Concatenate fullname and address fields to make them easier to print
     NSMutableString *fullName = [[NSMutableString alloc] init];
     [fullName appendString: fname];
     [fullName appendString: @" "];

@@ -13,6 +13,7 @@ int main()
         NSString *aCountry = @"England";
         NSString *aZip = @"01895";
         NSString *aPhone = @"01189998819991197253";
+        NSMutableArray *lookupResults = [[NSMutableArray alloc] init];
 
         AddressCard *card1 = [[AddressCard alloc] init];
 
@@ -26,8 +27,18 @@ int main()
 
         // Add cards to AddressBook
         [myBook addCard: card1];
-        [card1 print];
-        [myBook list];
+
+        // Look up any field
+        NSString *lookupString = @"engl";
+        NSLog(@"Lookup: %@", lookupString);
+        lookupResults = [myBook lookup: lookupString];
+        if ([lookupResults count] == 0) {
+            NSLog(@"Not found");
+        }
+        else {
+            for (AddressCard *matchedCard in lookupResults)
+                [matchedCard print];
+        }
     }
     return 0;
 }
