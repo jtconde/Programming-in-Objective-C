@@ -4,7 +4,8 @@
 
 @implementation AddressBook
 
-@synthesize bookName, book;
+@synthesize bookName;
+@synthesize book;
 
 - (id) initWithName: (NSString *) name
 {
@@ -39,15 +40,19 @@
 - (NSMutableArray *) lookup: (NSString *) theName
 {
     NSMutableArray *result = [[NSMutableArray alloc] init];
+
     NSIndexSet *matchingSet = [book indexesOfObjectsPassingTest:
         ^(id obj, NSUInteger idx, BOOL *stop) {
-            NSRange nameRange = [[obj name] rangeOfString: theName options: NSCaseInsensitiveSearch];
-            NSRange emailRange = [[obj email] rangeOfString: theName options: NSCaseInsensitiveSearch];
-            if (nameRange.location != NSNotFound || emailRange.location != NSNotFound)
+            NSRange nameRange = [[obj name] rangeOfString:
+                theName options: NSCaseInsensitiveSearch];
+            NSRange emailRange = [[obj email] rangeOfString:
+                theName options: NSCaseInsensitiveSearch];
+
+            if (nameRange.location != NSNotFound ||
+                emailRange.location != NSNotFound)
                 return YES;
             else
                 return NO;
-
         }];
 
     [result addObjectsFromArray: [book objectsAtIndexes: matchingSet]];
@@ -74,14 +79,33 @@
 - (void) list
 {
     NSLog(@" ");
-    NSLog(@"======== Contents of: %@ ========", bookName);
+    NSLog(@"======== Contents of: %@ =======", bookName);
 
     for (AddressCard* theCard in book) {
-        NSLog(@"%-20s   %-32s", [theCard.name UTF8String],
-            [theCard.email UTF8String]);
+        NSMutableString *fullName = [[NSMutableString alloc] init];
+        [fullName appendString: theCard.fname];
+        [fullName appendString: @" "];
+        [fullName appendString: theCard.lname];
+
+        NSMutableString *address = [[NSMutableString alloc] init];
+        [address appendString: theCard.city];
+        [address appendString: @", "];
+        [address appendString: theCard.state];
+        [address appendString: @", "];
+        [address appendString: theCard.zip];
+        NSLog(@"*************************************");
+        NSLog(@"*                                   *");
+        NSLog(@"*  %-32s *", [fullName UTF8String]);
+        NSLog(@"*  %-32s *", [address UTF8String]);
+        NSLog(@"*  %-32s *", [theCard.country UTF8String]);
+        NSLog(@"*  %-32s *", [theCard.phone UTF8String]);
+        NSLog(@"*  %-32s *", [theCard.email UTF8String]);
+        NSLog(@"*                                   *");
+        NSLog(@"*************************************");
+        NSLog(@" ");
     }
 
-    NSLog(@"==============================================================");
+    NSLog(@"=============================================================");
 
 }
 @end

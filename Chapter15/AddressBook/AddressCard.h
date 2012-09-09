@@ -4,12 +4,23 @@
 
 @interface AddressCard : NSObject
 
-@property (copy, nonatomic) NSString *name, *email;
+@property (copy, nonatomic) NSString *fname, *lname, *email, *state, *city;
+@property (copy, nonatomic) NSString *zip, *country, *phone;
 
 /**
  * Set both name and email
  */
-- (void) setName: (NSString *) theName andEmail: (NSString*) theEmail;
+- (void) setFName: (NSString *) first andLName: (NSString *) last
+    andEmail: (NSString*) theEmail;
+
+/**
+ * Sets a bunch of address card fields including the Person's first and
+ * last names, email and where they live, including their phone number.
+ */
+- (void) setFName: (NSString *) first andLName: (NSString *) last
+    andEmail: (NSString *) theEmail andState: (NSString *) State
+    andCity: (NSString *) City andZip: (NSString *) Zip
+    andCountry: (NSString *) Country andPhone: (NSString *) pnumber;
 
 /**
  * Tests if two AddressCards are the same
