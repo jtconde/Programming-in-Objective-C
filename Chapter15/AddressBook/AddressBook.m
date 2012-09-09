@@ -52,6 +52,18 @@
         return result;
 }
 
+- (BOOL) removeName: (NSString *) theName
+{
+    NSMutableArray *lookupResults = [[NSMutableArray alloc] init];
+    lookupResults = [self lookup: theName];
+    if ([lookupResults count] == 1) {
+        [book removeLastObject];
+        return YES;
+    }
+    else
+        return NO;
+}
+
 - (NSUInteger) entries
 {
     return [book count];

@@ -40,6 +40,14 @@
 - (NSMutableArray *) lookup: (NSString *) theName;
 
 /**
+ * Removes an entry from the AddressBook
+ * @param theName the entry with this name to remove
+ * @return YES if it finds and removes an entry. NO if multiple matches
+ * are found or if no matches are found
+ */
+- (BOOL) removeName: (NSString *) theName;
+
+/**
  * Sorts the address book using a NSComparator block.
  */
 - (void) sort;

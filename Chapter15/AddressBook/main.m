@@ -15,7 +15,17 @@ int main()
         NSString *aPhone = @"01189998819991197253";
         NSMutableArray *lookupResults = [[NSMutableArray alloc] init];
 
+        NSString *bFName = @"Jack";
+        NSString *bLast = @"Harkness";
+        NSString *bEmail = @"captain_jack@torchwood.com";
+        NSString *bState = @"Greater London";
+        NSString *bCity = @"London";
+        NSString *bCountry = @"England";
+        NSString *bZip = @"01894";
+        NSString *bPhone = @"201847192";
+
         AddressCard *card1 = [[AddressCard alloc] init];
+        AddressCard *card2 = [[AddressCard alloc] init];
 
         // Set up a new address book
         AddressBook *myBook = [[AddressBook alloc]
@@ -24,9 +34,12 @@ int main()
         // Set up four address cards
         [card1 setFName: aFName andLName: aLast andEmail: aEmail andState: aState
             andCity: aCity andZip: aZip andCountry: aCountry andPhone: aPhone];
+        [card2 setFName: bFName andLName: bLast andEmail: bEmail andState: bState
+            andCity: bCity andZip: bZip andCountry: bCountry andPhone: bPhone];
 
         // Add cards to AddressBook
         [myBook addCard: card1];
+        [myBook addCard: card2];
 
         // Look up any field
         NSString *lookupString = @"engl";
@@ -39,6 +52,18 @@ int main()
             for (AddressCard *matchedCard in lookupResults)
                 [matchedCard print];
         }
+
+        NSLog(@" ");
+        NSLog(@"Before removal: ");
+        [myBook list];
+        NSString *removeStr = @"jack";
+        if ([myBook removeName: @"jack"] == YES) {
+            NSLog(@" ");
+            NSLog(@"Removed %@:", removeStr);
+            [myBook list];
+        }
+        else
+            NSLog(@"Could not remove %@", removeStr);
     }
     return 0;
 }
