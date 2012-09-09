@@ -33,4 +33,6 @@ int main()
         NSLog(@"Fraction #2: %@", bFrac);
         NSLog(@"Fraction #3: %@", cFrac);
     }
+
+    return 0;
 }

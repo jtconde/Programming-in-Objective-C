@@ -1,5 +1,5 @@
 // Provides function implementations for Fraction class.
-// Chapter 15 exercise 7
+// Chapter 15 exercise 8
 #import "Fraction.h"
 
 static int gAddCounter;

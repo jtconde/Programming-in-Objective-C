@@ -1,5 +1,5 @@
 // Defines the Fraction class
-// Chapter 15 exercise 7
+// Chapter 15 exercise 8
 #import <Foundation/Foundation.h>
 
 @interface Fraction:NSObject
