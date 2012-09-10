@@ -6,7 +6,7 @@
 
 @interface MusicCollection : NSObject
 
-@property (copy, nonatomic) NSMutableArray *library;
+@property (strong, nonatomic) NSMutableArray *library;
 
 /**
  * Prints a short description about the MusicCollection including the number
@@ -67,14 +67,29 @@
 
 /**
  * Removes a song from a specified playlist.
- * @type {[type]}
+ * @param theSong the song to remove from the playlist
+ * @param theList the playlist to remove the song from
+ * @return YES if removal was successful NO otherwise
  */
 - (BOOL) removeSong: (Song *) theSong fromPlaylist: (Playlist *) theList;
 
+/**
+ * Searches for a song in the specified playlist
+ * @param theSong the Song to search for
+ * @param the playlist the search should take place in
+ */
 - (BOOL) searchForSong: (NSString *) theSong inPlaylist: (NSString *) theList;
 
+/**
+ * Searches for theSong in a MusicCollection's library
+ * @param searchTerm the song to search for
+ */
 - (BOOL) searchForSong: (NSString *) searchTerm;
 
+/**
+ * Searches for a playlist in a MusicCollection's library.
+ * @param searchTerm the playlist to search for
+ */
 - (BOOL) searchForPlayList: (NSString *) searchTerm;
 
 /**
