@@ -1,7 +1,7 @@
 // Interface file for the Song object.
 // Holds information about a Song
 // Chapter 15 exercise 9
-#import "Foundation/Foundation.h"
+#import <Foundation/Foundation.h>
 
 @interface Song : NSObject
 
@@ -15,6 +15,7 @@
  * separated by a comma
  * @param theAlbum the album that the song can be found in
  * @param theTime the playing time of the song, in seconds.
+ * @return the reciever object
  */
 - (id) initWithTitle: (NSString *) theTitle andArtist: (NSString *) theArtist
     andAlbum: (NSString *) theAlbum andTime: (NSUInteger) theTime;

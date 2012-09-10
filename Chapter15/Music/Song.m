@@ -7,15 +7,16 @@
 @synthesize title, artist, album, playingTime;
 
 - (id) initWithTitle: (NSString *) theTitle andArtist: (NSString *) theArtist
-    andAlbum:(NSString *) theAlbum  andTime:(NSUInteger) theTime
+    andAlbum: (NSString *) theAlbum andTime: (NSUInteger) theTime
 {
     self = [super init];
-    if (self != nil) {
+    if (self) {
         title = [NSString stringWithString: theTitle];
         artist = [NSString stringWithString: theArtist];
         album = [NSString stringWithString: theAlbum];
         playingTime = theTime;
     }
+
     return self;
 }
 
@@ -58,4 +59,5 @@
     NSLog(@"Title: %@\nArtist: %@\nAlbum: %@\n Playing Time: %@",
         title, artist, album, fullTime);
 }
+
 @end
