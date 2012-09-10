@@ -50,25 +50,25 @@
 - (BOOL) removeSong: (Song *) theSong;
 
 /**
- * Checks if a specified playlist exists.
- * @param theName the name of the playlist to check
- * @return YES if a playlist exists, NO otherwise
- */
-- (BOOL) doesPlaylistExist: (NSString *) theName;
-
-/**
  * Searches the playlist for the search term
  * @param searchTerm the term to search for
- * @return YES if a match is found, NO otherwise
+ * @return the matched Song. If not found, returns nil.
  */
-- (BOOL) searchPlaylist: (NSString *) searchTerm;
+- (Song *) searchPlaylist: (NSString *) searchTerm;
 
 /**
  * Sorts a playlist according to a specified criteria.
- * @param criteria can be something like "artist", "album", "time" or "title"
+ * @param method the method to use to sort. Can be something like "artist",
+ * "album", "time" or "title"
  * @return YES if sorting completed successfully, NO otherwise
  */
-- (BOOL) sortPlaylistBy: (NSString *) criteria;
+- (BOOL) sortPlaylistBy: (NSString *) method;
+
+/**
+ * Counts the number of songs that are in the playlist.
+ * @return the number of songs in the playlist
+ */
+- (NSUInteger) numOfSongs;
 
 /**
  * Prints all the songs contained in a playlist including all their

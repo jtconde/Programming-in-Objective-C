@@ -27,6 +27,15 @@
 - (NSString *) description;
 
 /**
+ * Compares two songs according to the criteria given
+ * @criteria the specified method to compare two Songs. It can be something
+ * like "artist", "album", "time" or "title".
+ * @param aSong the song to compare to
+ * @return the comparison result
+ */
+- (NSComparisonResult) compareTo: (id) aSong by: (NSString *) criteria;
+
+/**
  * Finds a song that matches a search term.
  * @param searchTerm the string to search in a song
  * @return YES if a match is found, NO otherwise

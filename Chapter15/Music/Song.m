@@ -50,6 +50,24 @@
         return NO;
 }
 
+- (NSComparisonResult) compareTo: (id) aSong by: (NSString *) criteria
+{
+    if ([criteria caseInsensitiveCompare: @"title"] == NSOrderedSame) {
+        return [self title] < [aSong title];
+    }
+    if ([criteria caseInsensitiveCompare: @"artist"] == NSOrderedSame) {
+        return [self artist] < [aSong artist];
+    }
+    if ([criteria caseInsensitiveCompare: @"time"] == NSOrderedSame) {
+        return [self playingTime] < [aSong playingTime];
+    }
+    if ([criteria caseInsensitiveCompare: @"album"] == NSOrderedSame) {
+        return [self album] < [aSong album];
+    }
+
+    return NSOrderedDescending;
+}
+
 - (void) printSong
 {
     NSUInteger seconds = self.playingTime % 60;
