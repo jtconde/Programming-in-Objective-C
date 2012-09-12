@@ -47,7 +47,7 @@
  * @param theSong the name of the Song
  * @return YES if the Song was removed from the playlist, otherwise NO
  */
-- (BOOL) removeSong: (Song *) theSong;
+- (BOOL) removeSong: (NSString *) theSongName;
 
 /**
  * Searches the playlist for the search term

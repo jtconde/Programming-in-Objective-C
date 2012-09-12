@@ -60,9 +60,10 @@
     [playlist addObject: theSong];
 }
 
-- (BOOL) removeSong: (Song *) theSong
+- (BOOL) removeSong: (NSString *) theSongName
 {
-    if ([self searchPlaylist: [theSong title]] != NO) {
+    Song *theSong = [self searchPlaylist: theSongName];
+    if (theSong != nil) {
         [playlist removeObjectIdenticalTo: theSong];
         return YES;
     }
@@ -84,6 +85,7 @@
                 NSCaseInsensitiveSearch].location != NSNotFound ||
             [timeString rangeOfString: searchTerm options:
                 NSCaseInsensitiveSearch].location != NSNotFound)
+
             return aSong;
     }
 

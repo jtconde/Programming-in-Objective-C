@@ -6,18 +6,19 @@
 
 @interface MusicCollection : NSObject
 
-@property (strong, nonatomic) NSMutableArray *library;
+@property (strong, nonatomic) NSMutableArray *masterCollection;
+@property (copy, nonatomic) NSMutableString *masterCollectionName;
 
 /**
  * Prints a short description about the MusicCollection including the number
  * of playlists it has and the total number of songs in the library.
  */
-- (void *) description;
-
+- (void) description;
 
 /**
- * Overrides the default initialize behavior so that the MusicCollection.
- * is initialized always with a library
+ * Overrides the default initialize behavior so that the MusicCollection
+ * is initialized always with a library.
+ * @return the initialized object
  */
 - (id) init;
 
@@ -32,9 +33,8 @@
 /**
  * Adds a playlist to the MusicCollection
  * @param thePlaylist the playlist to add to the MusicCollection
- * @return YES if addition was successful, NO otherwise
  */
-- (BOOL) addPlaylist: (Playlist *) thePlaylist;
+- (void) addPlaylist: (Playlist *) thePlaylist;
 
 /**
  * Removed a playlist from the MusicCollection.
@@ -53,10 +53,10 @@
 /**
  * Adds a song to the specified playlist
  * @param theSong the song to add to the playlist
- * @param theList the playlist the song should be added to.
+ * @param theName the name of the playlist the song should be added to.
  * @return YES if addition was successful NO otherwise
  */
-- (BOOL) addSong: (Song *) theSong toPlaylist: (Playlist *) theList;
+- (BOOL) addSong: (Song *) theSong toPlaylist: (NSString *) theName;
 
 /**
  * Removes a song from a MusicCollection's library
@@ -67,30 +67,45 @@
 
 /**
  * Removes a song from a specified playlist.
- * @param theSong the song to remove from the playlist
+ * @param theSongName the name of the song to remove from the playlist
  * @param theList the playlist to remove the song from
  * @return YES if removal was successful NO otherwise
  */
-- (BOOL) removeSong: (Song *) theSong fromPlaylist: (Playlist *) theList;
+- (BOOL) removeSong: (NSString *) theSongName fromPlaylist: (Playlist *) theList;
 
 /**
- * Searches for a song in the specified playlist
+ * Searches for a song in the specified playlist.
  * @param theSong the Song to search for
  * @param the playlist the search should take place in
+ * @return the Song if it was found, else return nil
  */
-- (BOOL) searchForSong: (NSString *) theSong inPlaylist: (NSString *) theList;
+- (Song *) searchForSong: (NSString *) theSong inPlaylist: (NSString *) theList;
 
 /**
  * Searches for theSong in a MusicCollection's library
  * @param searchTerm the song to search for
+ * @return the song if found, else return nil
  */
-- (BOOL) searchForSong: (NSString *) searchTerm;
+- (Song *) searchForSong: (NSString *) searchTerm;
 
 /**
  * Searches for a playlist in a MusicCollection's library.
  * @param searchTerm the playlist to search for
+ * @return the playlist if it was found, else return nil
  */
-- (BOOL) searchForPlayList: (NSString *) searchTerm;
+- (Playlist *) searchForPlayList: (NSString *) searchTerm;
+
+/**
+ * Counts the number of playlists that are in a MusicCollection's library.
+ * @return the number of playlists that are in a MusicCollection's library
+ */
+- (NSUInteger) numOfPlaylists;
+
+/**
+ * Counts all the songs in the library.
+ * @return the song count in a MusicCollection's library
+ */
+- (NSUInteger) songCount;
 
 /**
  * Displays information about the whole music collection
