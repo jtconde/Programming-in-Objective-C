@@ -60,9 +60,8 @@
  * Sorts a playlist according to a specified criteria.
  * @param method the method to use to sort. Can be something like "artist",
  * "album", "time" or "title"
- * @return YES if sorting completed successfully, NO otherwise
  */
-- (BOOL) sortPlaylistBy: (NSString *) method;
+- (void) sortPlaylistBy: (NSString *) method;
 
 /**
  * Counts the number of songs that are in the playlist.

@@ -98,23 +98,12 @@
     return nil;
 }
 
-- (BOOL) sortPlaylistBy: (NSString *) method
+- (void) sortPlaylistBy: (NSString *) method
 {
-    if ([method caseInsensitiveCompare: @"artist"] == NSOrderedSame  ||
-        [method caseInsensitiveCompare: @"time"]   == NSOrderedSame  ||
-        [method caseInsensitiveCompare: @"album"]  == NSOrderedSame  ||
-        [method caseInsensitiveCompare: @"title"]  == NSOrderedSame) {
-        for (Song *aSong in playlist) {
-            [playlist sortUsingComparator:
-                ^(id obj1, id obj2) {
-                    return [obj1 compareTo: obj2 by: method];
-                }];
-        }
-        return YES;
-    }
-    // method was not understood, so the playlist could not be sorted.
-    else
-        return NO;
+    [playlist sortUsingComparator:
+        ^ NSComparisonResult(id obj1, id obj2) {
+            return [obj1 compareTo: obj2 by: method];
+        }];
 }
 
 - (NSUInteger) numOfSongs

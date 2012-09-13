@@ -52,10 +52,22 @@ int main()
             [aCollection songCount], [aCollection numOfPlaylists]);
         NSLog(@"Songs in the library: ");
         [aCollection printMusicCollection];
+
+        // Remove a song
         NSLog(@"After removing song by \"King Crimson\": ");
         [aCollection removeSong: @"Starless" fromPlaylist: library];
         [aCollection printMusicCollection];
-        NSLog(@"There are now %lu songs left in the music library.", [aCollection songCount]);
+        NSLog(@"There are now %lu songs left in the music library.",
+            [aCollection songCount]);
+
+        // Sort music collection
+        NSLog(@"Sorting music collection by artist: ");
+        [library sortPlaylistBy: @"artist"];
+        [aCollection printMusicCollection];
+
+        NSLog(@"Sorting music collection by time:");
+        [library sortPlaylistBy: @"time"];
+        [aCollection printMusicCollection];
     }
 
     return 0;

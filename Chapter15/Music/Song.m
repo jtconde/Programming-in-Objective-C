@@ -57,19 +57,24 @@
         return NO;
 }
 
-- (NSComparisonResult) compareTo: (id) aSong by: (NSString *) criteria
+- (NSComparisonResult) compareTo: (id) aSong by: (NSString *) method
 {
-    if ([criteria caseInsensitiveCompare: @"title"] == NSOrderedSame) {
-        return [self title] < [aSong title];
+    if ([method caseInsensitiveCompare: @"title"] == NSOrderedSame) {
+        return [[self title] compare: [aSong title]];
     }
-    if ([criteria caseInsensitiveCompare: @"artist"] == NSOrderedSame) {
-        return [self artist] < [aSong artist];
+    if ([method caseInsensitiveCompare: @"artist"] == NSOrderedSame) {
+        return [[self artist] compare: [aSong artist]];
     }
-    if ([criteria caseInsensitiveCompare: @"time"] == NSOrderedSame) {
-        return [self playingTime] < [aSong playingTime];
+    if ([method caseInsensitiveCompare: @"time"] == NSOrderedSame) {
+        if ([self playingTime] == [aSong playingTime])
+            return NSOrderedSame;
+        if ([self playingTime] < [aSong playingTime])
+            return NSOrderedAscending;
+        else
+            return NSOrderedDescending;
     }
-    if ([criteria caseInsensitiveCompare: @"album"] == NSOrderedSame) {
-        return [self album] < [aSong album];
+    if ([method caseInsensitiveCompare: @"album"] == NSOrderedSame) {
+        return [[self album] compare: [aSong album]];
     }
 
     return NSOrderedDescending;
