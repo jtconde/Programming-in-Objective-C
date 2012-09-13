@@ -6,7 +6,7 @@
 @interface Song : NSObject
 
 @property (copy, nonatomic) NSString *title, *artist, *album;
-@property (assign, nonatomic) NSUInteger playingTime; // in seconds
+@property NSUInteger playingTime; // in seconds
 
 /**
  * Sets all the information about a Song.

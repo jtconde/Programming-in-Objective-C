@@ -24,11 +24,18 @@
 {
     NSUInteger seconds = self.playingTime % 60;
     NSUInteger minutes = self.playingTime / 60;
-    NSString *fullTime = [NSString stringWithFormat: @"%lu:%lu",
-        minutes, seconds];
+    NSString* fullTime;
+    if (seconds < 10) {
+        fullTime = [NSString stringWithFormat: @"%lu:0%lu",
+            minutes, seconds];
+    }
+    else {
+        fullTime = [NSString stringWithFormat: @"%lu:%lu",
+            minutes, seconds];
+    }
 
     return [NSString stringWithFormat:
-        @"Title: %@\nArtist: %@\nAlbum: %@\n Playing Time: %@",
+        @"\nTitle: %@\nArtist: %@\nAlbum: %@\nPlaying Time: %@\n",
             self.title, self.artist, self.album, fullTime];
 }
 
@@ -72,8 +79,16 @@
 {
     NSUInteger seconds = self.playingTime % 60;
     NSUInteger minutes = self.playingTime / 60;
-    NSString *fullTime = [NSString stringWithFormat: @"%lu:%lu",
-        minutes, seconds];
+    NSString *fullTime;
+
+    if (seconds < 10) {
+        fullTime = [NSString stringWithFormat: @"%lu:0%lu",
+            minutes, seconds];
+    }
+    else {
+        fullTime = [NSString stringWithFormat: @"%lu:%lu",
+            minutes, seconds];
+    }
     NSLog(@"Title: %@\nArtist: %@\nAlbum: %@\n Playing Time: %@",
         title, artist, album, fullTime);
 }

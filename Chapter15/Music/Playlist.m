@@ -24,10 +24,15 @@
 - (id) initWithName: (NSMutableString *) theName
 {
     self = [super init];
-    if (theName == nil || [trim(theName) length] == 0)
-        theName = [NSMutableString stringWithString: @"NoName"];
     if (self) {
-        self.playlistName = [NSMutableString stringWithString: theName];
+        if (theName == nil || [trim(theName) length] == 0) {
+            playlist = [NSMutableArray array];
+            self.playlistName = [NSMutableString stringWithString: @"NoName"];
+        }
+        else {
+            playlist = [NSMutableArray array];
+            self.playlistName = [NSMutableString stringWithString: theName];
+        }
     }
 
     return self;
@@ -38,6 +43,7 @@
     self = [super init];
     if (self) {
         self.playlistName = [NSMutableString stringWithString: theName];
+        playlist = [NSMutableArray array];
         [self addSong: theSong];
     }
 
@@ -119,7 +125,7 @@
 - (void) printPlayList
 {
     for (Song *theSong in playlist) {
-        NSLog(@"Title: %@", [theSong description]);
+        NSLog(@"%@", theSong);
     }
 }
 

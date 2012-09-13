@@ -1,6 +1,5 @@
 // Tests the Music classes
 // Chapter 15 exercise 9
-#import <Foundation/Foundation.h>
 #import "MusicCollection.h"
 
 int main()
@@ -45,10 +44,10 @@ int main()
         [playlist2 addSong: song5];
 
         // Start a music collection
-        MusicCollection *aCollection = [[MusicCollection alloc] initWithLibrary: library];
+        MusicCollection *aCollection = [[MusicCollection alloc]
+            initWithLibrary: library];
         [aCollection addPlaylist: playlist1];
         [aCollection addPlaylist: playlist2];
-
         [aCollection printMusicCollection];
     }
 

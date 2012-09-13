@@ -6,7 +6,7 @@
 
 @interface Playlist : NSObject
 
-@property (strong, nonatomic) NSMutableArray *playlist;
+@property (copy, nonatomic) NSMutableArray *playlist;
 @property (copy, nonatomic) NSMutableString *playlistName;
 
 /**

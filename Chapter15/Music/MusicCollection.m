@@ -18,6 +18,7 @@
         stringWithString: @"library"];
 
     if (self) {
+        masterCollection = [NSMutableArray array];
         Playlist *mainPlaylist = [[Playlist alloc] initWithName:
             masterCollectionName];
         [masterCollection addObject: mainPlaylist];
@@ -33,6 +34,7 @@
         stringWithString: [library playlistName]];
 
     if (self) {
+        masterCollection = [NSMutableArray array];
         Playlist *mainPlaylist = [[Playlist alloc] initWithName:
             masterCollectionName];
         [masterCollection addObject: mainPlaylist];
