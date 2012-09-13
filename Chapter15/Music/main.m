@@ -53,13 +53,6 @@ int main()
         NSLog(@"Songs in the library: ");
         [aCollection printMusicCollection];
 
-        // Remove a song
-        NSLog(@"After removing song by \"King Crimson\": ");
-        [aCollection removeSong: @"Starless" fromPlaylist: library];
-        [aCollection printMusicCollection];
-        NSLog(@"There are now %lu songs left in the music library.",
-            [aCollection songCount]);
-
         // Sort music collection
         NSLog(@"Sorting music collection by artist: ");
         [library sortPlaylistBy: @"artist"];
@@ -68,6 +61,21 @@ int main()
         NSLog(@"Sorting music collection by time:");
         [library sortPlaylistBy: @"time"];
         [aCollection printMusicCollection];
+
+        // Searching for a song in playlist
+        NSLog(@"Searching: \"jeth\" in playlist: library");
+        Song *aSong = [aCollection searchForSong: @"jeth" inPlaylist: @"library"];
+        if (aSong != nil)
+            NSLog(@"Found a match: %@", aSong);
+        else
+            NSLog(@"Not found");
+
+        // Remove a song
+        NSLog(@"After removing song by \"King Crimson\": ");
+        [aCollection removeSong: @"Starless" fromPlaylist: library];
+        [aCollection printMusicCollection];
+        NSLog(@"There are now %lu songs left in the music library.",
+            [aCollection songCount]);
     }
 
     return 0;
