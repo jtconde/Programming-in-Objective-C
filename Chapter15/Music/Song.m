@@ -35,7 +35,7 @@
     }
 
     return [NSString stringWithFormat:
-        @"\nTitle: %@\nArtist: %@\nAlbum: %@\nPlaying Time: %@\n",
+        @"\n\nTitle: %@\nArtist: %@\nAlbum: %@\nPlaying Time: %@\n\n",
             self.title, self.artist, self.album, fullTime];
 }
 
@@ -89,7 +89,7 @@
         fullTime = [NSString stringWithFormat: @"%lu:%lu",
             minutes, seconds];
     }
-    NSLog(@"Title: %@\nArtist: %@\nAlbum: %@\n Playing Time: %@",
+    NSLog(@"\n\nTitle: %@\nArtist: %@\nAlbum: %@\n Playing Time: %@\n\n",
         title, artist, album, fullTime);
 }
 

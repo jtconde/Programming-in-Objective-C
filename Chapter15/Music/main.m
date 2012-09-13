@@ -48,6 +48,12 @@ int main()
             initWithLibrary: library];
         [aCollection addPlaylist: playlist1];
         [aCollection addPlaylist: playlist2];
+        NSLog(@"There are %lu songs in the library and %lu playlists",
+            [aCollection songCount], [aCollection numOfPlaylists]);
+        NSLog(@"Songs in the library: ");
+        [aCollection printMusicCollection];
+        NSLog(@"After sorting by artist: ");
+        [library sortPlaylistBy: @"artist"];
         [aCollection printMusicCollection];
     }
 

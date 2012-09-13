@@ -30,14 +30,13 @@
 - (id) initWithLibrary: (Playlist *) library
 {
     self = [super init];
-    masterCollectionName = [NSMutableString
-        stringWithString: [library playlistName]];
 
     if (self) {
         masterCollection = [NSMutableArray array];
-        Playlist *mainPlaylist = [[Playlist alloc] initWithName:
-            masterCollectionName];
-        [masterCollection addObject: mainPlaylist];
+        masterCollectionName = [NSMutableString
+        stringWithString: [library playlistName]];
+
+        [masterCollection addObject: library];
     }
 
     return self;
@@ -161,14 +160,16 @@
 
 - (NSUInteger) numOfPlaylists
 {
-    return [masterCollection count];
+    // Don't count the main library playlist as a playlist
+    return [masterCollection count] - 1;
 }
 
 - (NSUInteger) songCount
 {
     NSUInteger count = 0;
     for (Playlist *aList in masterCollection) {
-        count += [aList numOfSongs];
+        if ([[aList playlistName] isEqualToString: @"library"])
+            count += [aList numOfSongs];
     }
 
     return count;
