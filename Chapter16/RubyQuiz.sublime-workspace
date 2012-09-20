@@ -1,0 +1,1344 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"object",
+				"objectAtIndex:(NSUInteger)	id"
+			],
+			[
+				"initWi",
+				"initWithArray:(NSArray *)	id"
+			],
+			[
+				"initWithI",
+				"initWithInteger:(NSInteger)	id"
+			],
+			[
+				"search",
+				"searchForSong"
+			],
+			[
+				"NSComparison",
+				"NSComparisonResult	typedef"
+			],
+			[
+				"sort",
+				"sortPlaylistBy"
+			],
+			[
+				"NSordered",
+				"NSOrderedDescending	enum _NSComparisonResult"
+			],
+			[
+				"from",
+				"fromPlaylist"
+			],
+			[
+				"print",
+				"printMusicCollection"
+			],
+			[
+				"num",
+				"numOfPlaylists"
+			],
+			[
+				"ma",
+				"masterCollection	NSMutableArray *"
+			],
+			[
+				"numOf",
+				"numOfSongs"
+			],
+			[
+				"song",
+				"songCount"
+			],
+			[
+				"play",
+				"playlist"
+			],
+			[
+				"pr",
+				"printPlayList"
+			],
+			[
+				"initWith",
+				"initWithLibrary"
+			],
+			[
+				"mainPla",
+				"mainPlaylistName	NSMutableString *"
+			],
+			[
+				"string",
+				"stringWithString"
+			],
+			[
+				"init",
+				"initWithName:(NSMutableString *)	id"
+			],
+			[
+				"de",
+				"description"
+			],
+			[
+				"pla",
+				"playlistName	NSMutableString *"
+			],
+			[
+				"playlist",
+				"playlistName"
+			],
+			[
+				"remove",
+				"removeSong"
+			],
+			[
+				"searc",
+				"searchPlaylist"
+			],
+			[
+				"master",
+				"masterCollectionName	NSMutableString *"
+			],
+			[
+				"masterCollec",
+				"masterCollectionName	NSString *"
+			],
+			[
+				"strin",
+				"stringWithString:(NSString *)	id"
+			],
+			[
+				"playlis",
+				"playlistCount	NSUInteger"
+			],
+			[
+				"Music",
+				"MusicCollection"
+			],
+			[
+				"NSComp",
+				"NSComparisonResult	typedef"
+			],
+			[
+				"NSorder",
+				"NSOrderedSame	enum _NSComparisonResult"
+			],
+			[
+				"NSOrdered",
+				"NSOrderedDescending	enum _NSComparisonResult"
+			],
+			[
+				"isEqual",
+				"isEqualToString:(NSString *)	BOOL"
+			],
+			[
+				"stringWith",
+				"stringWithFormat"
+			],
+			[
+				"searchPlay",
+				"searchPlaylist:(NSString *)	BOOL"
+			],
+			[
+				"add",
+				"addSong"
+			],
+			[
+				"Play",
+				"Playlist"
+			],
+			[
+				"playing",
+				"playingTime"
+			],
+			[
+				"convert",
+				"convertToNum"
+			],
+			[
+				"remo",
+				"removeLastObject	void"
+			],
+			[
+				"lookup",
+				"lookupResults"
+			],
+			[
+				"look",
+				"lookupResults	NSMutableArray *"
+			],
+			[
+				"first",
+				"firstName	NSString *"
+			],
+			[
+				"and",
+				"andCity"
+			],
+			[
+				"NSNot",
+				"NSNotFound	enum <anonymous>"
+			],
+			[
+				"NSOrder",
+				"NSOrderedSame"
+			],
+			[
+				"elp",
+				"elapsedDays"
+			],
+			[
+				"initWithTime",
+				"initWithTimeIntervalSince1970:(NSTimeInterval)	id"
+			],
+			[
+				"initwith",
+				"initWithTimeIntervalSinceNow:(NSTimeInterval)	id"
+			],
+			[
+				"timeIn",
+				"timeIntervalSinceDate:(NSDate *)	NSTimeInterval"
+			],
+			[
+				"NS",
+				"NSDate"
+			],
+			[
+				"elapse",
+				"elapsedDays"
+			],
+			[
+				"sortuI",
+				"sortUsingComparator:^NSComparisonResult(id obj1, id obj2)cmptr	void"
+			],
+			[
+				"comp",
+				"compareNames:(id)	NSComparisonResult"
+			],
+			[
+				"my",
+				"myCard	AddressCard*"
+			],
+			[
+				"rem",
+				"removeCard"
+			],
+			[
+				"Address",
+				"AddressCard"
+			],
+			[
+				"ulong",
+				"u_long	typedef"
+			],
+			[
+				"boo",
+				"bookName"
+			],
+			[
+				"Add",
+				"AddressCard.h"
+			],
+			[
+				"set",
+				"setName"
+			],
+			[
+				"NSS",
+				"NSString	class"
+			],
+			[
+				"pri",
+				"print"
+			],
+			[
+				"s",
+				"setName"
+			],
+			[
+				"NSMuta",
+				"NSMutableString	class"
+			],
+			[
+				"calc",
+				"calculateAverage	float"
+			],
+			[
+				"inter",
+				"inter	@interface"
+			],
+			[
+				"Ca",
+				"Calculator+Trig.h"
+			],
+			[
+				"con",
+				"convertToNum"
+			],
+			[
+				"Fraction",
+				"Fraction+Comparison.h"
+			],
+			[
+				"n",
+				"numerator"
+			],
+			[
+				"re",
+				"result	Fraction*"
+			],
+			[
+				"imple",
+				"imple	@implementation"
+			],
+			[
+				"setWi",
+				"setWidth:(double)	void"
+			],
+			[
+				"data",
+				"dataValue2	id"
+			],
+			[
+				"se",
+				"setX"
+			],
+			[
+				"h",
+				"height	double"
+			],
+			[
+				"NSLog",
+				"NSLog(NSString *format, ...)	void"
+			],
+			[
+				"implemen",
+				"implementation"
+			],
+			[
+				"setOrigin",
+				"setOrigin:(XYPoint *)	void"
+			],
+			[
+				"trans",
+				"translate:(XYPoint *)	void"
+			],
+			[
+				"p",
+				"perimeter"
+			],
+			[
+				"dou",
+				"double"
+			],
+			[
+				"do",
+				"double"
+			],
+			[
+				"Class",
+				"ClassB	class"
+			],
+			[
+				"complex",
+				"complexNum"
+			],
+			[
+				"doub",
+				"double_t	typedef"
+			],
+			[
+				"d",
+				"denominator	int"
+			],
+			[
+				"subtr",
+				"subtract:(Fraction *)	Fraction *"
+			],
+			[
+				"Fr",
+				"Fraction"
+			],
+			[
+				"setTo",
+				"setTo:(int) over:(int)	void"
+			],
+			[
+				"Frac",
+				"Fraction	class"
+			],
+			[
+				"number",
+				"number_of_digits	int"
+			],
+			[
+				"us",
+				"Users/"
+			],
+			[
+				"digit",
+				"digitSum	int"
+			],
+			[
+				"acc",
+				"accumulator"
+			],
+			[
+				"price",
+				"getPrice	double"
+			],
+			[
+				"call",
+				"callme2"
+			],
+			[
+				"St",
+				"StringBad"
+			],
+			[
+				"strn",
+				"strngbad.h"
+			],
+			[
+				"opera",
+				"operator"
+			],
+			[
+				"Stone",
+				"Stonewt"
+			],
+			[
+				"integer",
+				"integerPds"
+			],
+			[
+				"std",
+				"std::ostream"
+			],
+			[
+				"Sto",
+				"Stonewt.h"
+			],
+			[
+				"in",
+				"inc	#include \"…\""
+			],
+			[
+				"inc",
+				"include"
+			],
+			[
+				"open",
+				"open_terminal_project_folder"
+			],
+			[
+				"set_ma",
+				"set_mag()	void"
+			],
+			[
+				"set_ang",
+				"set_ang()	void"
+			],
+			[
+				"mag",
+				"magval() const	double"
+			],
+			[
+				"V",
+				"VECTOR"
+			],
+			[
+				"fo",
+				"forv	Vector For Loop"
+			],
+			[
+				"r",
+				"rect_mode"
+			],
+			[
+				"pola",
+				"polar_mode"
+			],
+			[
+				"set_an",
+				"set_ang()	void"
+			],
+			[
+				"customer",
+				"customerItem	Item"
+			],
+			[
+				"is",
+				"isFull() const	bool"
+			],
+			[
+				"cus",
+				"customerItem	Item"
+			],
+			[
+				"list",
+				"list.h"
+			],
+			[
+				"pl",
+				"Plorg.h"
+			],
+			[
+				"Pl",
+				"Plorg.h"
+			],
+			[
+				"move",
+				"Move.h"
+			],
+			[
+				"scout",
+				"scout	std::cout"
+			],
+			[
+				"aer",
+				"average"
+			],
+			[
+				"account",
+				"accountNumber	std::string"
+			],
+			[
+				"show",
+				"showpoint	const fmtflags"
+			],
+			[
+				"acct",
+				"acctNumber	std::string"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 335.0,
+		"selected_items":
+		[
+			[
+				"rub",
+				"Set Syntax: Ruby"
+			],
+			[
+				"ruby",
+				"SublimeREPL: Ruby"
+			],
+			[
+				"vhd",
+				"Set Syntax: VHDL"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"disa",
+				"Package Control: Disable Package"
+			],
+			[
+				"clang",
+				"SublimeClang: Clear cache"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"spell",
+				"View: Toggle Spell Check"
+			],
+			[
+				"up",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"ove",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"consol",
+				"View: Toggle Console"
+			],
+			[
+				"upg",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"vhdl",
+				"Set Syntax: VHDL"
+			],
+			[
+				"bash",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"snipp",
+				"Snippet: Category Implementation"
+			],
+			[
+				"snippe",
+				"Snippet: Vector For Loop"
+			],
+			[
+				"snippet",
+				"Snippet: Property (Objective-C 2.0)"
+			],
+			[
+				"obj",
+				"Set Syntax: Objective-C"
+			],
+			[
+				"objec",
+				"Set Syntax: Objective-C++"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"clip",
+				"Clipboard History"
+			],
+			[
+				"upgrade",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"enabl",
+				"Package Control: Enable Package"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"sola",
+				"Schemr: Solarized (Dark)"
+			],
+			[
+				"move",
+				"MoveText: Move Up"
+			],
+			[
+				"wrap",
+				"Word Wrap: Column 80"
+			],
+			[
+				"wra",
+				"Word Wrap: Toggle"
+			],
+			[
+				"upgrad",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"toggle",
+				"Toggle Block Comment"
+			],
+			[
+				"block",
+				"Toggle Block Comment"
+			],
+			[
+				"upgr",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"color",
+				"Color Picker: Insert Color"
+			],
+			[
+				"bracket",
+				"Bracket Highlighter: Select Bracket Content"
+			],
+			[
+				"bracke",
+				"Bracket Highlighter: Match Brackets"
+			],
+			[
+				"",
+				"Bracket Highlighter: Fold by Brackets"
+			],
+			[
+				"tomo",
+				"Schemr: Tomorrow-Night-Eighties"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"list p",
+				"Package Control: List Packages"
+			],
+			[
+				"disabl",
+				"Package Control: Disable Package"
+			],
+			[
+				"ss:obj",
+				"Set Syntax: Objective-C"
+			],
+			[
+				"ss objc",
+				"Set Syntax: Objective-C"
+			],
+			[
+				"ss c",
+				"Set Syntax: C"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"made",
+				"Schemr: Made of Code"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"upgra",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"finder",
+				"Finder: Open here"
+			],
+			[
+				"copyr",
+				"Auto Copyright: Update Copyright"
+			],
+			[
+				"auto",
+				"Auto Copyright: Update Copyright"
+			],
+			[
+				"insa",
+				"Package Control: Install Package"
+			],
+			[
+				"mono",
+				"Schemr: Monokai Bright"
+			],
+			[
+				"ss obj",
+				"Set Syntax: Objective-C"
+			],
+			[
+				"caly",
+				"Schemr: Calydon"
+			],
+			[
+				"ster",
+				"Schemr: Stereokai"
+			],
+			[
+				"open fi",
+				"File: Reopen Closed File"
+			],
+			[
+				"so",
+				"Schemr: Stereokai"
+			],
+			[
+				"ss obc",
+				"Set Syntax: Objective-C"
+			],
+			[
+				"repl",
+				"Replace"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"line",
+				"Line Ending: Unix"
+			],
+			[
+				"man",
+				"Manpage: Open manual page"
+			],
+			[
+				"over",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"git",
+				"Git: Diff Tool"
+			],
+			[
+				"berna",
+				"Schemr: BernatColorScheme"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"sol",
+				"Schemr: Solarized (Dark)"
+			],
+			[
+				"bern",
+				"Schemr: BernatColorScheme"
+			],
+			[
+				"match",
+				"Bracket Highlighter: Match Brackets"
+			],
+			[
+				"snip",
+				"Snippet: #!/usr/bin/env"
+			],
+			[
+				"ss py",
+				"Set Syntax: Python"
+			],
+			[
+				"solar",
+				"Schemr: Solarized (Dark)"
+			],
+			[
+				"schemr",
+				"Schemr: Blackboard"
+			],
+			[
+				"ink",
+				"Schemr: Vibrant Ink"
+			],
+			[
+				"package",
+				"Package Control: Disable Package"
+			],
+			[
+				"ctags",
+				"CTags: Rebuild Tags"
+			],
+			[
+				"git comm",
+				"Git: Commit"
+			],
+			[
+				"git ",
+				"Git: Status"
+			],
+			[
+				"git add",
+				"Git: Add..."
+			],
+			[
+				"align",
+				"Abacus: align selection"
+			],
+			[
+				"todo",
+				"Show TODOs: Project and open files"
+			],
+			[
+				"package con",
+				"Package Control: Install Package"
+			],
+			[
+				"TODO",
+				"Show TODOs: Open files only"
+			],
+			[
+				"select tag",
+				"Bracket Highlighter: Select Tag"
+			],
+			[
+				"tag",
+				"Bracket Highlighter: Select Tag"
+			],
+			[
+				"push",
+				"Git: Push Current Branch"
+			],
+			[
+				"commit",
+				"Git: Quick Commit"
+			],
+			[
+				"git commit",
+				"Git: Commit"
+			],
+			[
+				"git diff",
+				"Git: Diff All"
+			],
+			[
+				"git commit ",
+				"Git: Quick Commit"
+			],
+			[
+				"plugi",
+				"SublimeCodeIntel: Enable Plugin"
+			],
+			[
+				"packa",
+				"Package Control: Remove Package"
+			],
+			[
+				"git stat",
+				"Git: Status"
+			],
+			[
+				"git comit",
+				"Git: Quick Commit"
+			],
+			[
+				"snippet:",
+				"Snippet: #ifndef … #define … #endif"
+			],
+			[
+				"Snippet: ",
+				"Snippet: main()"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"add",
+				"Git: Add Current File"
+			],
+			[
+				"git push",
+				"Git: Push Current Branch"
+			],
+			[
+				"git commi",
+				"Git: Commit"
+			],
+			[
+				"package ",
+				"Package Control: Remove Package"
+			],
+			[
+				"disco",
+				"Package Control: Discover Packages"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Enable Package"
+			],
+			[
+				":w",
+				":w - Save"
+			],
+			[
+				"w",
+				"Word Wrap: Toggle"
+			],
+			[
+				"git ad",
+				"Git: Add..."
+			],
+			[
+				"Snippet: na",
+				"Snippet: Namespace"
+			],
+			[
+				"save ",
+				":w - Save"
+			],
+			[
+				"pakage",
+				"Package Control: Upgrade Package"
+			]
+		],
+		"width": 579.0
+	},
+	"console":
+	{
+		"height": 145.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": true,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/watabou/.gitignore_global",
+		"/Users/watabou/.zshrc",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter16/copy.m",
+		"/Users/watabou/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/.gitignore",
+		"/Volumes/TARDIS 1/--- CS 147 & CS 247 Students -- README --.txt",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter15/Music/Song.h",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter15/NSCountedSet/main.m",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter15/Music/main.m",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter15/Music/MusicCollection.m",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter15/Music/MusicCollection.h",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter15/Music/Playlist.m",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter15/Music/Playlist.h",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter15/Music/Song.m",
+		"/Users/watabou/Documents/Uni/Fall 2012/CS 152/class1.txt",
+		"/Users/watabou/.gitconfig",
+		"/Users/watabou/Desktop/hello.vhd",
+		"/Users/watabou/Downloads/akshayhegde-dotfiles-c2039d9/zsh/.zshrc",
+		"/Users/watabou/.zpreztorc",
+		"/Users/watabou/.zprezto/modules/prompt/functions/prompt_watabou_setup",
+		"/Users/watabou/.zprezto/modules/prompt/functions/prompt_sorin_setup",
+		"/Users/watabou/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/watabou/Library/Application Support/Sublime Text 2/Packages/User/SublimeClang.sublime-settings",
+		"/Users/watabou/Library/Application Support/Sublime Text 2/Packages/DocBlockr/Base File.sublime-settings",
+		"/Users/watabou/bin/asupdate.py",
+		"/Users/watabou/.pryrc",
+		"/Users/watabou/.rvm/gems/ruby-1.9.3-p194/gems/pry-0.9.10/lib/pry/pry_class.rb",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter15/Fraction2/Fraction.h",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter15/Fraction2/Fraction.m",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter15/Fraction2/Fraction+Comparison.h",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter15/Fraction2/Fraction+Comparison.m",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter15/Fraction2/main.m",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter15/Fraction1/main.m",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter15/Fraction/main.m",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter15/Fraction/Fraction.m",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter15/Fraction/Fraction.h",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter15/AddressBook/main.m",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter15/AddressBook/AddressBook.m",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter15/AddressBook/AddressBook.h",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter15/AddressBook/AddressCard.m",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter15/AddressBook/AddressCard.h",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter10/Day/main.m",
+		"/Users/watabou/Library/Application Support/Sublime Text 2/Packages/User/Abacus.sublime-settings",
+		"/Users/watabou/Library/Application Support/Sublime Text 2/Packages/CTags/Default.sublime-keymap",
+		"/Users/watabou/dotfiles/zsh/.zlogin",
+		"/Users/watabou/Library/Application Support/Sublime Text 2/Packages/User/Base File.sublime-settings",
+		"/Users/watabou/Library/Application Support/Sublime Text 2/Packages/SublimeCodeIntel/Base File.sublime-settings",
+		"/Users/watabou/Library/Application Support/Sublime Text 2/Packages/User/CTags.sublime-settings",
+		"/Users/watabou/Library/Application Support/Sublime Text 2/Packages/CTags/CTags.sublime-settings",
+		"/Users/watabou/.ctags",
+		"/Users/watabou/.npmrc",
+		"/Users/watabou/Desktop/server.js",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter15/NSDate/main.m",
+		"/Users/watabou/Dropbox/Sublime Text 2/Packages/Bubububububad and Boneyfied Color Schemes/Bubububububad.tmTheme",
+		"/Users/watabou/Dropbox/Sublime Text 2/Packages/Color Schemes by carlcalderon/Stereokai/Stereokai.tmTheme",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter15/NSDate/NSDate+ElapsedDays.m",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter15/NSDate/NSDate+ElapsedDays.h",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/objc.sublime-project",
+		"/Users/watabou/Library/Application Support/Sublime Text 2/Packages/BracketHighlighter/BracketHighlighter.sublime-settings",
+		"/usr/local/Cellar/appledoc/2.0.5/Templates/docset/Contents/info-template.plist",
+		"/Users/watabou/Downloads/Rxdzz.txt",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter15/NSDate/NSDate+ElapsedDate.m",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter15/NSDate/NSDate+ElapsedDate.h",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter13/test.m",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter13/block_exchange.m",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter13/exchange.m",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter13/Fraction/command_line.m",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter13/Fraction/main.m",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter13/Fraction/Fraction.m",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter13/Fraction/Fraction.h",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter13/prime.m",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter13/average.m",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter12/absolute_value.m",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter12/is_alphabetic.m",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter12/is_upper_case.m",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter12/is_special.m",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter12/is_digit.m",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter12/is_alphabetic",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter12/maximum.m",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter12/minimum.m",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter12/maximum",
+		"/Users/watabou/Desktop/main.c",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter11/Square/main.m",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter11/Square/Square.m",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter11/Square/Square.h",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter11/Square/Rectangle.m",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter11/Square/Rectangle.h",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter10/Rectangle/XYPoint.m",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter11/Calculator/main.m",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter11/Calculator/Calculator+Trig.m",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter11/Calculator/Calculator+Trig.h",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter11/Calculator/Calculator.m",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter11/Calculator/Calculator.h",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Calculator+Trig.m",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter11/Fraction/main.m",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter11/Fraction/Fraction+Comparison.m",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter11/Fraction/Fraction+Comparison.h",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter11/Fraction/Fraction+MathOps.m",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter11/Fraction/Fraction.m",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter11/Fraction/Fraction+MathOps.h",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter11/Fraction/Fraction.h",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter10/Fraction/Fraction+Comparison.h",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Fraction+MathOps.m",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter9/XYPoint/Fraction.m",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter10/Fraction/Fraction.h",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter10/Day/Day.m",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter10/Day/Day.h",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter10/Rectangle/main.m",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter10/Fraction/Fraction.m",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter10/Fraction/main.m",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter10/Rectangle/Square.m",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter10/Rectangle/Square.h",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter10/Rectangle/Rectangle.m",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter10/Rectangle/Rectangle.h",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Square.m",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Square.h",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter9/XYPoint/Complex.h",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter9/XYPoint/Complex.m",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter4/Complex.m",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter9/XYPoint/main.m",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter9/XYPoint/Fraction.h",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter9/XYPoint/XYPoint.m",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter9/XYPoint/XYPoint.h",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter10/",
+		"/Users/watabou/Dropbox/Sublime Text 2/Packages/User/implementation.sublime-snippet",
+		"/Users/watabou/Dropbox/Sublime Text 2/Packages/User/interface.sublime-snippet",
+		"/Users/watabou/Dropbox/Sublime Text 2/Packages/User/NSLog.sublime-snippet",
+		"/Users/watabou/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap"
+	],
+	"find":
+	{
+		"height": 37.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"criteria",
+			"method",
+			"];\n",
+			"fasd",
+			"font",
+			"auth",
+			"TOKEN",
+			"NSLog",
+			"name",
+			"line",
+			"result",
+			"ul",
+			"u",
+			"obama",
+			"f2",
+			"f1",
+			"limit",
+			"}\n",
+			"save",
+			"slow",
+			"detect",
+			"        \n",
+			"digits",
+			"letter",
+			"iTerm",
+			"obj",
+			"sports",
+			"()\\",
+			"\";\n",
+			"plugin",
+			"slow",
+			"detect",
+			"punds",
+			":\n",
+			"#ifndef STONEWT_H_\n#define STONEWT_H_\n#include <iostream>\n\nclass Stonewt {\nprivate:\n    static const int Lbs_per_stn = 14;\n    int stone;\n    double pds_left;\n    double pounds;\n    char mode;\npublic:\n    Stonewt(double lbs);\n    Stonewt(int stn, double lbs);\n    Stonewt();\n    ~Stonewt();\n    // friends\n    friend Stonewt operator+(const Stonewt& stn1, Stonewt& stn2);\n    friend Stonewt operator-(const Stonewt& stn1, Stonewt& stn2);\n    friend Stonewt operator*(const Stonewt& stn1, Stonewt& stn2);\n    friend std::ostream operator<<(std::ostream& os, const Stonewt& stn);\n};\n#endif\n",
+			"inden",
+			"customerItem",
+			"false",
+			"std::cin",
+			"std::cout",
+			"c",
+			"style",
+			"word",
+			"potentialGetItemCancelationCommand ",
+			"command",
+			"adobe"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"method",
+			"iTerm2",
+			"it",
+			"cin",
+			"cout"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 33.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.clang":
+	{
+		"height": 120.0
+	},
+	"output.exec":
+	{
+		"height": 102.0
+	},
+	"output.git":
+	{
+		"height": 120.0
+	},
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"Chapter10/Day/main.m"
+			],
+			[
+				"nsma",
+				"Chapter15/NSDate/main.m"
+			],
+			[
+				"card",
+				"Chapter15/AddressBook/AddressCard.m"
+			],
+			[
+				"address",
+				"Chapter15/AddressBook/AddressCard.h"
+			],
+			[
+				"addres",
+				"Chapter15/AddressBook/AddressBook.m"
+			],
+			[
+				"nsdatemai",
+				"Chapter15/NSDate/main.m"
+			],
+			[
+				"elpas",
+				"Chapter15/NSDate/NSDate+ElapsedDays.m"
+			],
+			[
+				"addressmain",
+				"Chapter15/AddressBook/main.m"
+			],
+			[
+				"complex",
+				"Chapter9/XYPoint/Complex.m"
+			],
+			[
+				"compl",
+				"Chapter4/Complex.m"
+			],
+			[
+				"bank",
+				"chapter10/Ex1/bank.cpp"
+			],
+			[
+				"ban",
+				"chapter10/Ex1/bank.cpp"
+			],
+			[
+				"cus",
+				"chapter10/Ex5/customerStack.h"
+			],
+			[
+				"customer",
+				"chapter10/Ex5/customerStack.h"
+			],
+			[
+				"ba",
+				"/Users/watabou/Documents/Cpp Projects/learnCpp/chapter10/bank.cpp"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 149.0,
+	"status_bar_visible": true
+}
