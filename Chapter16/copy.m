@@ -1,16 +1,16 @@
 // Implements a copy command similar to the UNIX cp command
 // Chapter 16 exercise 1
-#import <Foundation/NSFileManager.h>
-#import <Foundation/NSProcessInfo.h>
+#import <Foundation/Foundation.h>
 
-int main(int argc, char *argv[])
+int main()
 {
     @autoreleasepool {
         NSFileManager *fm = [NSFileManager defaultManager];
-        NSString *source, *dest;
+        NSString *dest;
         BOOL isDir;
         NSProcessInfo *proc = [NSProcessInfo processInfo];
         NSArray *args = [proc arguments];
+        NSMutableArray *sourceFiles = [NSMutableArray array];
 
         if ([args count] < 3) {
             NSLog(@"\nusage: %@ source_file ... target_directory",
@@ -18,29 +18,44 @@ int main(int argc, char *argv[])
             return 1;
         }
 
-        source = [args objectAtIndex: 1];
-        dest = [args objectAtIndex: 2];
+        // Collect all the source files
+        NSUInteger i = 1; // Skip the first argument -- the program name
+        while (i < [args count] - 1) {
+            [sourceFiles addObject:[args objectAtIndex:i]];
+            ++i;
+        }
+        // Finally, the last argument is the destination
+        dest = [args objectAtIndex:([args count] - 1)];
 
-        if ([fm isReadableFileAtPath: source] == NO) {
-            NSLog(@"Can't read %@", source);
-            return 2;
+        for (NSString *aFile in sourceFiles) {
+            if ([fm isReadableFileAtPath:aFile] == NO) {
+                NSLog(@"Can't read %@", aFile);
+                return 2;
+            }
         }
 
-        [fm fileExistsAtPath: dest isDirectory: &isDir];
+        [fm fileExistsAtPath:dest isDirectory:&isDir];
 
         if (isDir == YES) {
-            dest = [dest stringByAppendingPathComponent:
-            [source lastPathComponent]];
+            for (NSString *aFile in sourceFiles) {
+                // Must create a new string to hold dest or second argument
+                // will be copied to "first_arg/second_arg".
+                NSString *newDest;
+                newDest = [dest stringByAppendingPathComponent:
+                    [aFile lastPathComponent]];
+                [fm removeItemAtPath:newDest error:NULL];
+
+                if ([fm copyItemAtPath:aFile toPath:newDest
+                    error:NULL] == NO) {
+                    NSLog(@"Copy of %@ to %@ failed!", aFile, newDest);
+                    return 3;
+                }
+            }
         }
 
-        [fm removeItemAtPath: dest error: NULL];
-
-        if ([fm copyItemAtPath: source toPath: dest error: NULL] == NO) {
-            NSLog(@"Copy failed!");
-            return 3;
+        for (NSString *aFile in sourceFiles) {
+            NSLog(@"Copied %@ to %@!", aFile, dest);
         }
-
-        NSLog(@"Copy of %@ to %@ succeeded!", source, dest);
     }
 
     return 0;
