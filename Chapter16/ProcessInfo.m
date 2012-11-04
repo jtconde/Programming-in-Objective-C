@@ -19,10 +19,7 @@ int main()
         NSLog(@"Process ID: %d", [proc processIdentifier]);
         NSLog(@"Process Name: %@", [proc processName]);
         NSLog(@"Uptime: %g seconds", [proc systemUptime]);
-
-        //a long dictionary of env variables
-        // comment out to view the output
-        //NSLog(@"Environment Variables: %@", [proc environment]);
+        NSLog(@"Environment Variables: %@", [proc environment]);
     }
 
     return 0;
