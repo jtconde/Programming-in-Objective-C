@@ -6,8 +6,8 @@
  */
 #import <Foundation/Foundation.h>
 
- int main()
- {
+int main()
+{
     @autoreleasepool {
         NSFileManager *fm = [NSFileManager defaultManager];
         NSString *directory, *fileToSearch, *path;
