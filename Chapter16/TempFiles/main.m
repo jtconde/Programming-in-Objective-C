@@ -1,6 +1,7 @@
 // Tests the TempFiles category of the NSString class
 #import <Foundation/Foundation.h>
 #import "NSString+TempFiles.h"
+#define MAXCHARS 60
 
 int main()
 {
@@ -11,7 +12,7 @@ int main()
         NSLog(@"Temporary Directory is: %@", tempdir);
         tempFileName = [NSString temporaryFileName];
         shortenedDir = [[tempdir stringByAppendingString:tempFileName]
-                                        substringToIndex:62];
+                                        substringToIndex:MAXCHARS];
 
         NSLog(@"Temporary file stored as: %@", shortenedDir);
     }
