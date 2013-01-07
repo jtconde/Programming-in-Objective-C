@@ -297,6 +297,7 @@
 				53F171DD169ACFEA00C36640 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

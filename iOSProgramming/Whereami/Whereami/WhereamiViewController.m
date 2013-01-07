@@ -28,6 +28,10 @@
         
         // Start looking for its location immediately
         [locationManager startUpdatingLocation];
+        
+        // Update heading as well if the device supports it.
+        if ([CLLocationManager headingAvailable])
+            [locationManager startUpdatingHeading];
     }
     
     return self;
@@ -44,6 +48,12 @@
         didFailWithError:(NSError *)error
 {
     NSLog(@"Could not find the location: %@", error);
+}
+
+- (void)locationManager:(CLLocationManager *)manager
+        didUpdateHeading:(CLHeading *)newHeading
+{
+    NSLog(@"New Heading: %@", newHeading);
 }
 
 @end
