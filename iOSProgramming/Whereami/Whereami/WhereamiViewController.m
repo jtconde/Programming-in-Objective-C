@@ -23,6 +23,9 @@
         // Be as accurate as possible
         [locationManager setDesiredAccuracy:kCLLocationAccuracyBest];
         
+        // Only generate an update event if the device moves 50 meters
+        [locationManager setDistanceFilter:50];
+        
         // Start looking for its location immediately
         [locationManager startUpdatingLocation];
     }
