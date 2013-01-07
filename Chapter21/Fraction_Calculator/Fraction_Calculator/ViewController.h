@@ -30,5 +30,6 @@
 - (IBAction)clickOver;
 - (IBAction)clickEquals;
 - (IBAction)clickClear;
+- (IBAction)clickConvert;
 
 @end

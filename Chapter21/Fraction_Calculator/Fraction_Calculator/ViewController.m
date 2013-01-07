@@ -153,6 +153,13 @@
     display.text = displayString;
 }
 
+- (IBAction)clickConvert
+{
+    [displayString appendString:[NSString stringWithFormat:@" => %g",
+                              [myCalculator.accumulator convertToNum]]];
+    display.text = displayString;
+}
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];

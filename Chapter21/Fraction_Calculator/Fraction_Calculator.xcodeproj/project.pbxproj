@@ -20,6 +20,8 @@
 		53680EDC1687FC8D00193C3F /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53680EDA1687FC8D00193C3F /* ViewController.xib */; };
 		53680EE5168808FB00193C3F /* Fraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 53680EE4168808FB00193C3F /* Fraction.m */; };
 		53680EE716880C4300193C3F /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 53680EE616880C4300193C3F /* Calculator.m */; };
+		53680EED168829BE00193C3F /* textures-backgrounds_00427422.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 53680EEC168829BE00193C3F /* textures-backgrounds_00427422.jpg */; };
+		53680EEF16882DE500193C3F /* FracCalc.png in Resources */ = {isa = PBXBuildFile; fileRef = 53680EEE16882DE500193C3F /* FracCalc.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +45,9 @@
 		53680EE3168808FB00193C3F /* Fraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fraction.h; sourceTree = "<group>"; };
 		53680EE4168808FB00193C3F /* Fraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fraction.m; sourceTree = "<group>"; };
 		53680EE616880C4300193C3F /* Calculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calculator.m; sourceTree = "<group>"; };
+		53680EEC168829BE00193C3F /* textures-backgrounds_00427422.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "textures-backgrounds_00427422.jpg"; sourceTree = "<group>"; };
+		53680EEE16882DE500193C3F /* FracCalc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FracCalc.png; sourceTree = "<group>"; };
+		53680EF016882E1B00193C3F /* Fraction_Calculator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Fraction_Calculator.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +67,7 @@
 		53680EB01687FC8D00193C3F = {
 			isa = PBXGroup;
 			children = (
+				53680EEE16882DE500193C3F /* FracCalc.png */,
 				53680EC51687FC8D00193C3F /* Fraction_Calculator */,
 				53680EBE1687FC8D00193C3F /* Frameworks */,
 				53680EBC1687FC8D00193C3F /* Products */,
@@ -89,6 +95,7 @@
 		53680EC51687FC8D00193C3F /* Fraction_Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				53680EF016882E1B00193C3F /* Fraction_Calculator.entitlements */,
 				53680EE616880C4300193C3F /* Calculator.m */,
 				53680EE21688038D00193C3F /* Calculator.h */,
 				53680EE3168808FB00193C3F /* Fraction.h */,
@@ -107,6 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				53680EC71687FC8D00193C3F /* Fraction_Calculator-Info.plist */,
+				53680EEC168829BE00193C3F /* textures-backgrounds_00427422.jpg */,
 				53680EC81687FC8D00193C3F /* InfoPlist.strings */,
 				53680ECB1687FC8D00193C3F /* main.m */,
 				53680ECD1687FC8D00193C3F /* Fraction_Calculator-Prefix.pch */,
@@ -172,6 +180,8 @@
 				53680ED41687FC8D00193C3F /* Default@2x.png in Resources */,
 				53680ED61687FC8D00193C3F /* Default-568h@2x.png in Resources */,
 				53680EDC1687FC8D00193C3F /* ViewController.xib in Resources */,
+				53680EED168829BE00193C3F /* textures-backgrounds_00427422.jpg in Resources */,
+				53680EEF16882DE500193C3F /* FracCalc.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,7 +244,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -255,7 +265,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -268,6 +278,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Fraction_Calculator/Fraction_Calculator-Prefix.pch";
 				INFOPLIST_FILE = "Fraction_Calculator/Fraction_Calculator-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -279,6 +290,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Fraction_Calculator/Fraction_Calculator-Prefix.pch";
 				INFOPLIST_FILE = "Fraction_Calculator/Fraction_Calculator-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
