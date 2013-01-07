@@ -1,0 +1,1423 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"sorted",
+				"sortedArrayUsingSelector:(SEL)	NSArray *"
+			],
+			[
+				"NSUTF",
+				"NSUTF8StringEncoding	enum <anonymous>"
+			],
+			[
+				"st",
+				"stringWithContentsOfFile:(NSString *)	id"
+			],
+			[
+				"readData",
+				"readDataToEndOfFile	NSData *"
+			],
+			[
+				"tempFil",
+				"temporaryFileName"
+			],
+			[
+				"process",
+				"processName"
+			],
+			[
+				"opera",
+				"operatingSystem"
+			],
+			[
+				"proc",
+				"proc	NSProcessInfo *"
+			],
+			[
+				"arg",
+				"arguments"
+			],
+			[
+				"NSPro",
+				"NSProcessInfo	class"
+			],
+			[
+				"is",
+				"isDir"
+			],
+			[
+				"NSDic",
+				"NSDirectoryEnumerator	class"
+			],
+			[
+				"last",
+				"lastPathComponent"
+			],
+			[
+				"file",
+				"fileExistsAtPath"
+			],
+			[
+				"ar",
+				"arguments"
+			],
+			[
+				"de",
+				"defaultManager"
+			],
+			[
+				"arraywith",
+				"arrayWithObjects:(const id *) count:(NSUInteger)	id"
+			],
+			[
+				"int_",
+				"int_fast8_t	typedef"
+			],
+			[
+				"u_",
+				"u_int	typedef"
+			],
+			[
+				"NS",
+				"NSInteger	typedef"
+			],
+			[
+				"object",
+				"objectAtIndex:(NSUInteger)	id"
+			],
+			[
+				"initWi",
+				"initWithArray:(NSArray *)	id"
+			],
+			[
+				"initWithI",
+				"initWithInteger:(NSInteger)	id"
+			],
+			[
+				"search",
+				"searchForSong"
+			],
+			[
+				"NSComparison",
+				"NSComparisonResult	typedef"
+			],
+			[
+				"sort",
+				"sortPlaylistBy"
+			],
+			[
+				"NSordered",
+				"NSOrderedDescending	enum _NSComparisonResult"
+			],
+			[
+				"from",
+				"fromPlaylist"
+			],
+			[
+				"print",
+				"printMusicCollection"
+			],
+			[
+				"num",
+				"numOfPlaylists"
+			],
+			[
+				"ma",
+				"masterCollection	NSMutableArray *"
+			],
+			[
+				"numOf",
+				"numOfSongs"
+			],
+			[
+				"song",
+				"songCount"
+			],
+			[
+				"play",
+				"playlist"
+			],
+			[
+				"pr",
+				"printPlayList"
+			],
+			[
+				"initWith",
+				"initWithLibrary"
+			],
+			[
+				"mainPla",
+				"mainPlaylistName	NSMutableString *"
+			],
+			[
+				"string",
+				"stringWithString"
+			],
+			[
+				"init",
+				"initWithName:(NSMutableString *)	id"
+			],
+			[
+				"pla",
+				"playlistName	NSMutableString *"
+			],
+			[
+				"playlist",
+				"playlistName"
+			],
+			[
+				"remove",
+				"removeSong"
+			],
+			[
+				"searc",
+				"searchPlaylist"
+			],
+			[
+				"master",
+				"masterCollectionName	NSMutableString *"
+			],
+			[
+				"masterCollec",
+				"masterCollectionName	NSString *"
+			],
+			[
+				"strin",
+				"stringWithString:(NSString *)	id"
+			],
+			[
+				"playlis",
+				"playlistCount	NSUInteger"
+			],
+			[
+				"Music",
+				"MusicCollection"
+			],
+			[
+				"NSComp",
+				"NSComparisonResult	typedef"
+			],
+			[
+				"NSorder",
+				"NSOrderedSame	enum _NSComparisonResult"
+			],
+			[
+				"NSOrdered",
+				"NSOrderedDescending	enum _NSComparisonResult"
+			],
+			[
+				"isEqual",
+				"isEqualToString:(NSString *)	BOOL"
+			],
+			[
+				"stringWith",
+				"stringWithFormat"
+			],
+			[
+				"searchPlay",
+				"searchPlaylist:(NSString *)	BOOL"
+			],
+			[
+				"add",
+				"addSong"
+			],
+			[
+				"Play",
+				"Playlist"
+			],
+			[
+				"playing",
+				"playingTime"
+			],
+			[
+				"convert",
+				"convertToNum"
+			],
+			[
+				"remo",
+				"removeLastObject	void"
+			],
+			[
+				"lookup",
+				"lookupResults"
+			],
+			[
+				"look",
+				"lookupResults	NSMutableArray *"
+			],
+			[
+				"first",
+				"firstName	NSString *"
+			],
+			[
+				"and",
+				"andCity"
+			],
+			[
+				"NSNot",
+				"NSNotFound	enum <anonymous>"
+			],
+			[
+				"NSOrder",
+				"NSOrderedSame"
+			],
+			[
+				"elp",
+				"elapsedDays"
+			],
+			[
+				"initWithTime",
+				"initWithTimeIntervalSince1970:(NSTimeInterval)	id"
+			],
+			[
+				"initwith",
+				"initWithTimeIntervalSinceNow:(NSTimeInterval)	id"
+			],
+			[
+				"timeIn",
+				"timeIntervalSinceDate:(NSDate *)	NSTimeInterval"
+			],
+			[
+				"elapse",
+				"elapsedDays"
+			],
+			[
+				"sortuI",
+				"sortUsingComparator:^NSComparisonResult(id obj1, id obj2)cmptr	void"
+			],
+			[
+				"comp",
+				"compareNames:(id)	NSComparisonResult"
+			],
+			[
+				"my",
+				"myCard	AddressCard*"
+			],
+			[
+				"rem",
+				"removeCard"
+			],
+			[
+				"Address",
+				"AddressCard"
+			],
+			[
+				"ulong",
+				"u_long	typedef"
+			],
+			[
+				"boo",
+				"bookName"
+			],
+			[
+				"Add",
+				"AddressCard.h"
+			],
+			[
+				"set",
+				"setName"
+			],
+			[
+				"NSS",
+				"NSString	class"
+			],
+			[
+				"pri",
+				"print"
+			],
+			[
+				"s",
+				"setName"
+			],
+			[
+				"NSMuta",
+				"NSMutableString	class"
+			],
+			[
+				"calc",
+				"calculateAverage	float"
+			],
+			[
+				"inter",
+				"inter	@interface"
+			],
+			[
+				"Ca",
+				"Calculator+Trig.h"
+			],
+			[
+				"con",
+				"convertToNum"
+			],
+			[
+				"Fraction",
+				"Fraction+Comparison.h"
+			],
+			[
+				"n",
+				"numerator"
+			],
+			[
+				"re",
+				"result	Fraction*"
+			],
+			[
+				"imple",
+				"imple	@implementation"
+			],
+			[
+				"setWi",
+				"setWidth:(double)	void"
+			],
+			[
+				"data",
+				"dataValue2	id"
+			],
+			[
+				"se",
+				"setX"
+			],
+			[
+				"h",
+				"height	double"
+			],
+			[
+				"NSLog",
+				"NSLog(NSString *format, ...)	void"
+			],
+			[
+				"implemen",
+				"implementation"
+			],
+			[
+				"setOrigin",
+				"setOrigin:(XYPoint *)	void"
+			],
+			[
+				"trans",
+				"translate:(XYPoint *)	void"
+			],
+			[
+				"p",
+				"perimeter"
+			],
+			[
+				"dou",
+				"double"
+			],
+			[
+				"do",
+				"double"
+			],
+			[
+				"Class",
+				"ClassB	class"
+			],
+			[
+				"complex",
+				"complexNum"
+			],
+			[
+				"doub",
+				"double_t	typedef"
+			],
+			[
+				"d",
+				"denominator	int"
+			],
+			[
+				"subtr",
+				"subtract:(Fraction *)	Fraction *"
+			],
+			[
+				"Fr",
+				"Fraction"
+			],
+			[
+				"setTo",
+				"setTo:(int) over:(int)	void"
+			],
+			[
+				"Frac",
+				"Fraction	class"
+			],
+			[
+				"number",
+				"number_of_digits	int"
+			],
+			[
+				"us",
+				"Users/"
+			],
+			[
+				"digit",
+				"digitSum	int"
+			],
+			[
+				"acc",
+				"accumulator"
+			],
+			[
+				"price",
+				"getPrice	double"
+			],
+			[
+				"call",
+				"callme2"
+			],
+			[
+				"St",
+				"StringBad"
+			],
+			[
+				"strn",
+				"strngbad.h"
+			],
+			[
+				"Stone",
+				"Stonewt"
+			],
+			[
+				"integer",
+				"integerPds"
+			],
+			[
+				"std",
+				"std::ostream"
+			],
+			[
+				"Sto",
+				"Stonewt.h"
+			],
+			[
+				"in",
+				"inc	#include \"…\""
+			],
+			[
+				"inc",
+				"include"
+			],
+			[
+				"open",
+				"open_terminal_project_folder"
+			],
+			[
+				"set_ma",
+				"set_mag()	void"
+			],
+			[
+				"set_ang",
+				"set_ang()	void"
+			],
+			[
+				"mag",
+				"magval() const	double"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"selected_items":
+		[
+			[
+				"up",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"cal",
+				"Schemr: CalydonMod"
+			],
+			[
+				"moo",
+				"Schemr: Made of Code"
+			],
+			[
+				"color",
+				"Color Picker: Insert Color"
+			],
+			[
+				"twilight",
+				"Schemr: TwilightMod"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"twi",
+				"Schemr: Twilight"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"remov",
+				"Project: Remove all Folders"
+			],
+			[
+				"lazy",
+				"Schemr: LAZY"
+			],
+			[
+				"tyran",
+				"Schemr: Tyrann Blue"
+			],
+			[
+				"zach",
+				"Schemr: Zachstronaut"
+			],
+			[
+				"vibran",
+				"Schemr: Vibrant Ink"
+			],
+			[
+				"tubs",
+				"Schemr: Tubster"
+			],
+			[
+				"tub",
+				"Schemr: Tubster-custom"
+			],
+			[
+				"tomor",
+				"Schemr: Tomorrow-Night-Eighties-Dark"
+			],
+			[
+				"tomo",
+				"Schemr: Tomorrow-Night"
+			],
+			[
+				"text",
+				"Schemr: Text Ex Machina"
+			],
+			[
+				"swyp",
+				"Schemr: Swyphs II"
+			],
+			[
+				"summer",
+				"Schemr: Summer Camp Mod"
+			],
+			[
+				"starl",
+				"Schemr: Starlight"
+			],
+			[
+				"specta",
+				"Schemr: Spectacular"
+			],
+			[
+				"smyck",
+				"Schemr: Smyck"
+			],
+			[
+				"ship",
+				"Schemr: Shipwreck"
+			],
+			[
+				"rdark",
+				"Schemr: RDark"
+			],
+			[
+				"rainy",
+				"Schemr: Rainy Days"
+			],
+			[
+				"rails",
+				"Schemr: RailsCastsColorScheme"
+			],
+			[
+				"putty",
+				"Schemr: Putty"
+			],
+			[
+				"ptero",
+				"Schemr: Pterosaur"
+			],
+			[
+				"pol",
+				"Schemr: Polarise"
+			],
+			[
+				"plas",
+				"Schemr: PlasticCodeWrap"
+			],
+			[
+				"organ",
+				"Schemr: Organic"
+			],
+			[
+				"ocea",
+				"Schemr: Oceanic"
+			],
+			[
+				"ocean",
+				"Schemr: Oceanic"
+			],
+			[
+				"ob",
+				"Schemr: Obsidian"
+			],
+			[
+				"night",
+				"Schemr: Nightlife"
+			],
+			[
+				"mus",
+				"Schemr: Mustang"
+			],
+			[
+				"mono",
+				"Schemr: MonokaiGb"
+			],
+			[
+				"monoin",
+				"Schemr: monoindustrial"
+			],
+			[
+				"mini",
+				"Schemr: minimal_Theme"
+			],
+			[
+				"obs",
+				"Schemr: Obsidian"
+			],
+			[
+				"birds",
+				"Schemr: Birds of Paradise"
+			],
+			[
+				"caly",
+				"Schemr: CalydonMod"
+			],
+			[
+				"sola",
+				"Schemr: Solarized (Dark)"
+			],
+			[
+				"calyd",
+				"Schemr: CalydonMod"
+			],
+			[
+				"ss ob",
+				"Set Syntax: Objective-C"
+			],
+			[
+				"obj",
+				"Set Syntax: Objective-C"
+			],
+			[
+				"objc",
+				"Set Syntax: Objective-C"
+			],
+			[
+				"upg",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"ty",
+				"Schemr: TyrannMod"
+			],
+			[
+				"graa",
+				"Schemr: Coal Graal"
+			],
+			[
+				"obsi",
+				"Schemr: Obsidian"
+			],
+			[
+				"arab",
+				"Schemr: Arabian Nights"
+			],
+			[
+				"obi",
+				"Schemr: Obsidian"
+			],
+			[
+				"blu",
+				"Schemr: BluishTint"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"upgr",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"made",
+				"Schemr: Made of Code"
+			],
+			[
+				"brig",
+				"Schemr: Monokai Bright"
+			],
+			[
+				"tyr",
+				"Schemr: TyrannMod"
+			],
+			[
+				"tyra",
+				"Schemr: TyrannMod"
+			],
+			[
+				"over",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"snippet",
+				"Snippet: NSLog(@\" \");"
+			],
+			[
+				"upgrade",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"ruler",
+				"Ruler: None"
+			],
+			[
+				"reinde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"ss obj",
+				"Set Syntax: Objective-C"
+			],
+			[
+				"crea",
+				"Create file from Template"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"ss htm",
+				"Set Syntax: HTML"
+			],
+			[
+				"org",
+				"Schemr: Organic"
+			],
+			[
+				"inser",
+				"Color Picker: Insert Color"
+			],
+			[
+				"inse",
+				"Color Picker: Insert Color"
+			],
+			[
+				"insert",
+				"Color Picker: Insert Color"
+			],
+			[
+				"open re",
+				"SublimeGDB: Open Register View"
+			],
+			[
+				"clo",
+				"Schemr: Clouds Midnight"
+			],
+			[
+				"zen",
+				"Schemr: Zenburnesque"
+			],
+			[
+				"upd",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"",
+				"Bookmarks: Toggle"
+			],
+			[
+				"sol",
+				"Schemr: Solarized (Dark)"
+			],
+			[
+				"bl",
+				"Schemr: BluishTint"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"bong",
+				"Schemr: Bongzilla"
+			],
+			[
+				"schemr",
+				"Schemr: Blackboard"
+			],
+			[
+				"smyc",
+				"Schemr: Smyck"
+			],
+			[
+				"orga",
+				"Schemr: Organic"
+			],
+			[
+				"twili",
+				"Schemr: TwilightMod"
+			],
+			[
+				"mo",
+				"Schemr: Monokai Bright"
+			],
+			[
+				"ster",
+				"Schemr: Stereokai"
+			],
+			[
+				"fri",
+				"Schemr: Friendship Bracelet"
+			],
+			[
+				"sche",
+				"Schemr: GlitterBomb"
+			],
+			[
+				"s",
+				"Schemr: monoindustrial"
+			],
+			[
+				"spec",
+				"Schemr: Spectacular"
+			],
+			[
+				"objec",
+				"Set Syntax: Objective-C"
+			],
+			[
+				"obje",
+				"Set Syntax: Objective-C"
+			],
+			[
+				"view gi",
+				"View File on Github"
+			],
+			[
+				"github",
+				"View File on Github"
+			],
+			[
+				"so",
+				"Schemr: Solarized (Dark)"
+			],
+			[
+				"ss java",
+				"Set Syntax: Java"
+			],
+			[
+				"i",
+				"Package Control: Install Package"
+			],
+			[
+				"stero",
+				"Schemr: Stereokai"
+			],
+			[
+				"re",
+				"Package Control: Remove Package"
+			],
+			[
+				"mon",
+				"Schemr: Monokai Bright"
+			],
+			[
+				"dogs",
+				"Schemr: Dogs"
+			],
+			[
+				"rail",
+				"Schemr: Railscasts 2"
+			],
+			[
+				"vhd",
+				"Set Syntax: VHDL"
+			],
+			[
+				"disa",
+				"Package Control: Disable Package"
+			],
+			[
+				"clang",
+				"SublimeClang: Clear cache"
+			],
+			[
+				"spell",
+				"View: Toggle Spell Check"
+			],
+			[
+				"ove",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"consol",
+				"View: Toggle Console"
+			],
+			[
+				"vhdl",
+				"Set Syntax: VHDL"
+			],
+			[
+				"bash",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"snipp",
+				"Snippet: Category Implementation"
+			],
+			[
+				"snippe",
+				"Snippet: Vector For Loop"
+			],
+			[
+				"clip",
+				"Clipboard History"
+			],
+			[
+				"enabl",
+				"Package Control: Enable Package"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"move",
+				"MoveText: Move Up"
+			],
+			[
+				"wrap",
+				"Word Wrap: Column 80"
+			],
+			[
+				"wra",
+				"Word Wrap: Toggle"
+			],
+			[
+				"upgrad",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"toggle",
+				"Toggle Block Comment"
+			]
+		],
+		"width": 579.0
+	},
+	"console":
+	{
+		"height": 145.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": true,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter16/ex7.m",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter16/fileHandle.m",
+		"/Users/watabou/Dropbox/Sublime Text 2/Packages/User/prospettiva.tmTheme",
+		"/Users/watabou/Downloads/hosts",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter16/read_plist.m",
+		"/Users/watabou/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter16/TempFiles/main.m",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter16/TempFiles/NSString+TempFiles.h",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter16/TempFiles/NSString+TempFiles.m",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter16/NSString+TempFiles.m",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter16/NSString+TempFiles.h",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter15/Fraction1/Fraction.h",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/objc.sublime-project",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter16/ProcessInfo.m",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter16/dirname.m",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter16/basename.m",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter16/myfind.m",
+		"/Users/watabou/.gitconfig",
+		"/Users/watabou/.ssh/id_rsa.pub",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter15/Music/MusicCollection.m",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter16/copy.m",
+		"/Users/watabou/.ssh/known_hosts",
+		"/Users/watabou/.zshrc",
+		"/Users/watabou/Documents/Github/TyrannMod Color Scheme/README.md",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter15/Music/MusicCollection.h",
+		"/Users/watabou/Dropbox/Sublime Text 2/Packages/User/TyrannMod.tmTheme",
+		"/Users/watabou/Dropbox/Sublime Text 2/Packages/User/CalydonMod.tmTheme",
+		"/Users/watabou/Dropbox/Sublime Text 2/Packages/User/BadMod.tmTheme",
+		"/Users/watabou/Dropbox/Sublime Text 2/Packages/User/minimal_Theme.tmTheme",
+		"/Users/watabou/.tmux.conf",
+		"/Users/watabou/Dropbox/Sublime Text 2/Pristine Packages/Color Scheme - Default.sublime-package",
+		"/Users/watabou/Dropbox/Sublime Text 2/Packages/Color Schemes by carlcalderon/Tyrann/Tyrann Alex.tmTheme",
+		"/Users/watabou/Dropbox/Sublime Text 2/Packages/User/BluishTint.tmTheme",
+		"/Users/watabou/Dropbox/Sublime Text 2/Packages/User/Organic.tmTheme",
+		"/Users/watabou/Dropbox/Sublime Text 2/Packages/User/Obsidian.tmTheme",
+		"/Users/watabou/Dropbox/Sublime Text 2/Packages/User/Tubster.tmTheme",
+		"/Users/watabou/Dropbox/Sublime Text 2/Packages/User/Tubster-custom.tmTheme",
+		"/Users/watabou/.zpreztorc",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter15/Music/main.m",
+		"/Users/watabou/Library/Application Support/Sublime Text 2/Packages/User/SublimeClang.sublime-settings",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter15/AddressBook/AddressBook.h",
+		"/Users/watabou/Desktop/Bug2.java",
+		"/Users/watabou/.zprezto/init.zsh",
+		"/Users/watabou/.zprezto/modules/utility/init.zsh",
+		"/Users/watabou/.zprezto/modules/environment/init.zsh",
+		"/Users/watabou/.zprezto/modules/editor/init.zsh",
+		"/Users/watabou/.zprezto/modules/terminal/init.zsh",
+		"/Users/watabou/.zprezto/modules/directory/init.zsh",
+		"/Users/watabou/dotfiles/zsh/.zshrc",
+		"/Users/watabou/dotfiles/zsh/.zshenv",
+		"/Users/watabou/dotfiles/vim/.vimrc",
+		"/Users/watabou/Dropbox/Sublime Text 2/Packages/User/MonokaiGb.tmTheme",
+		"/Users/watabou/.gitignore_global",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/.gitignore",
+		"/Volumes/TARDIS 1/--- CS 147 & CS 247 Students -- README --.txt",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter15/Music/Song.h",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter15/NSCountedSet/main.m",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter15/Music/Playlist.m",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter15/Music/Playlist.h",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter15/Music/Song.m",
+		"/Users/watabou/Documents/Uni/Fall 2012/CS 152/class1.txt",
+		"/Users/watabou/Desktop/hello.vhd",
+		"/Users/watabou/Downloads/akshayhegde-dotfiles-c2039d9/zsh/.zshrc",
+		"/Users/watabou/.zprezto/modules/prompt/functions/prompt_watabou_setup",
+		"/Users/watabou/.zprezto/modules/prompt/functions/prompt_sorin_setup",
+		"/Users/watabou/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/watabou/Library/Application Support/Sublime Text 2/Packages/DocBlockr/Base File.sublime-settings",
+		"/Users/watabou/bin/asupdate.py",
+		"/Users/watabou/.pryrc",
+		"/Users/watabou/.rvm/gems/ruby-1.9.3-p194/gems/pry-0.9.10/lib/pry/pry_class.rb",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter15/Fraction2/Fraction.h",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter15/Fraction2/Fraction.m",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter15/Fraction2/Fraction+Comparison.h",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter15/Fraction2/Fraction+Comparison.m",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter15/Fraction2/main.m",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter15/Fraction1/main.m",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter15/Fraction/main.m",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter15/Fraction/Fraction.m",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter15/Fraction/Fraction.h",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter15/AddressBook/main.m",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter15/AddressBook/AddressBook.m",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter15/AddressBook/AddressCard.m",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter15/AddressBook/AddressCard.h",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter10/Day/main.m",
+		"/Users/watabou/Library/Application Support/Sublime Text 2/Packages/User/Abacus.sublime-settings",
+		"/Users/watabou/Library/Application Support/Sublime Text 2/Packages/CTags/Default.sublime-keymap",
+		"/Users/watabou/dotfiles/zsh/.zlogin",
+		"/Users/watabou/Library/Application Support/Sublime Text 2/Packages/User/Base File.sublime-settings",
+		"/Users/watabou/Library/Application Support/Sublime Text 2/Packages/SublimeCodeIntel/Base File.sublime-settings",
+		"/Users/watabou/Library/Application Support/Sublime Text 2/Packages/User/CTags.sublime-settings",
+		"/Users/watabou/Library/Application Support/Sublime Text 2/Packages/CTags/CTags.sublime-settings",
+		"/Users/watabou/.ctags",
+		"/Users/watabou/.npmrc",
+		"/Users/watabou/Desktop/server.js",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter15/NSDate/main.m",
+		"/Users/watabou/Dropbox/Sublime Text 2/Packages/Bubububububad and Boneyfied Color Schemes/Bubububububad.tmTheme",
+		"/Users/watabou/Dropbox/Sublime Text 2/Packages/Color Schemes by carlcalderon/Stereokai/Stereokai.tmTheme",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter15/NSDate/NSDate+ElapsedDays.m",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter15/NSDate/NSDate+ElapsedDays.h",
+		"/Users/watabou/Library/Application Support/Sublime Text 2/Packages/BracketHighlighter/BracketHighlighter.sublime-settings",
+		"/usr/local/Cellar/appledoc/2.0.5/Templates/docset/Contents/info-template.plist",
+		"/Users/watabou/Downloads/Rxdzz.txt",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter15/NSDate/NSDate+ElapsedDate.m",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter15/NSDate/NSDate+ElapsedDate.h",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter13/test.m",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter13/block_exchange.m",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter13/exchange.m",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter13/Fraction/command_line.m",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter13/Fraction/main.m",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter13/Fraction/Fraction.m",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter13/Fraction/Fraction.h",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter13/prime.m",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter13/average.m",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter12/absolute_value.m",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter12/is_alphabetic.m",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter12/is_upper_case.m",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter12/is_special.m",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter12/is_digit.m",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter12/is_alphabetic",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter12/maximum.m",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter12/minimum.m",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter12/maximum",
+		"/Users/watabou/Desktop/main.c",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter11/Square/main.m",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter11/Square/Square.m",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter11/Square/Square.h",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter11/Square/Rectangle.m",
+		"/Users/watabou/Documents/Computer Science/Objective-C Projects/Chapter11/Square/Rectangle.h"
+	],
+	"find":
+	{
+		"height": 37.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"jasmin",
+			"aURL",
+			"tempDirectory",
+			"merge",
+			"default",
+			"push",
+			"true",
+			"enumDestination",
+			"newDest",
+			"class",
+			"library",
+			"criteria",
+			"method",
+			"];\n",
+			"fasd",
+			"font",
+			"auth",
+			"TOKEN",
+			"NSLog",
+			"name",
+			"line",
+			"result",
+			"ul",
+			"u",
+			"obama",
+			"f2",
+			"f1",
+			"limit",
+			"}\n",
+			"save",
+			"slow",
+			"detect",
+			"        \n",
+			"digits",
+			"letter",
+			"iTerm",
+			"obj",
+			"sports",
+			"()\\",
+			"\";\n",
+			"plugin",
+			"slow",
+			"detect",
+			"punds",
+			":\n",
+			"#ifndef STONEWT_H_\n#define STONEWT_H_\n#include <iostream>\n\nclass Stonewt {\nprivate:\n    static const int Lbs_per_stn = 14;\n    int stone;\n    double pds_left;\n    double pounds;\n    char mode;\npublic:\n    Stonewt(double lbs);\n    Stonewt(int stn, double lbs);\n    Stonewt();\n    ~Stonewt();\n    // friends\n    friend Stonewt operator+(const Stonewt& stn1, Stonewt& stn2);\n    friend Stonewt operator-(const Stonewt& stn1, Stonewt& stn2);\n    friend Stonewt operator*(const Stonewt& stn1, Stonewt& stn2);\n    friend std::ostream operator<<(std::ostream& os, const Stonewt& stn);\n};\n#endif\n",
+			"inden",
+			"customerItem",
+			"false",
+			"std::cin",
+			"std::cout",
+			"c",
+			"style",
+			"word",
+			"potentialGetItemCancelationCommand ",
+			"command",
+			"adobe"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"method",
+			"iTerm2",
+			"it",
+			"cin",
+			"cout"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 33.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.clang":
+	{
+		"height": 120.0
+	},
+	"output.exec":
+	{
+		"height": 102.0
+	},
+	"output.git":
+	{
+		"height": 120.0
+	},
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"Chapter10/Day/main.m"
+			],
+			[
+				"nsma",
+				"Chapter15/NSDate/main.m"
+			],
+			[
+				"card",
+				"Chapter15/AddressBook/AddressCard.m"
+			],
+			[
+				"address",
+				"Chapter15/AddressBook/AddressCard.h"
+			],
+			[
+				"addres",
+				"Chapter15/AddressBook/AddressBook.m"
+			],
+			[
+				"nsdatemai",
+				"Chapter15/NSDate/main.m"
+			],
+			[
+				"elpas",
+				"Chapter15/NSDate/NSDate+ElapsedDays.m"
+			],
+			[
+				"addressmain",
+				"Chapter15/AddressBook/main.m"
+			],
+			[
+				"complex",
+				"Chapter9/XYPoint/Complex.m"
+			],
+			[
+				"compl",
+				"Chapter4/Complex.m"
+			],
+			[
+				"bank",
+				"chapter10/Ex1/bank.cpp"
+			],
+			[
+				"ban",
+				"chapter10/Ex1/bank.cpp"
+			],
+			[
+				"cus",
+				"chapter10/Ex5/customerStack.h"
+			],
+			[
+				"customer",
+				"chapter10/Ex5/customerStack.h"
+			],
+			[
+				"ba",
+				"/Users/watabou/Documents/Cpp Projects/learnCpp/chapter10/bank.cpp"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"pick",
+				"/Users/watabou/Documents/Computer Science/Ruby Projects/Programming Ruby/PickAxe.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 149.0,
+	"status_bar_visible": true
+}
