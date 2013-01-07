@@ -37,6 +37,7 @@
 
 - (void)viewDidLoad
 {
+    [worldView setMapType:MKMapTypeSatellite];
     [worldView setShowsUserLocation:YES];
 }
 
