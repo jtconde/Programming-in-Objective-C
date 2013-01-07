@@ -25,8 +25,19 @@
 
 - (void)setScale:(CGFloat)scale
 {
-    _scale = scale;
-    [self setNeedsDisplay];
+    if (scale != _scale) {
+        _scale = scale;
+        [self setNeedsDisplay];
+    }
+}
+
+- (void)pinch:(UIPinchGestureRecognizer *)gesture
+{
+    if (([gesture state] == UIGestureRecognizerStateChanged) ||
+        ([gesture state] == UIGestureRecognizerStateEnded)) {
+        self.scale *= gesture.scale;
+        gesture.scale = 1;
+    }
 }
 
 - (void)setup
@@ -73,7 +84,7 @@
     CGFloat size = self.bounds.size.width / 2;
     if (self.bounds.size.height < self.bounds.size.width)
         size = self.bounds.size.height / 2;
-    size *= DEFAULT_SCALE;
+    size *= self.scale;
     CGContextSetLineWidth(context, 5.0);
     [[UIColor blueColor] setStroke];
     [self drawCircleAtPoint:midPoint withRadius:size inContext:context];
