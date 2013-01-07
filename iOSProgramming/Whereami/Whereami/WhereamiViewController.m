@@ -103,12 +103,31 @@
     // zoom to this location
     MKCoordinateRegion region =
         MKCoordinateRegionMakeWithDistance(coord, 250, 250);
-    
+    [worldView setRegion:region animated:YES];
     // Reset the UI
     [locationTitleField setText:@""];
     [activityIndicator stopAnimating];
     [locationTitleField setHidden:NO];
     [locationManager stopUpdatingLocation];
+}
+
+- (IBAction)setMapType:(id)sender
+{
+    // cast sender to UISegmentedControl *
+    // switch the segment indices to set the appropriate map type
+    switch (((UISegmentedControl *) sender).selectedSegmentIndex) {
+        case 0:
+            [worldView setMapType:MKMapTypeStandard];
+            break;
+        case 1:
+            [worldView setMapType:MKMapTypeHybrid];
+            break;
+        case 2:
+            [worldView setMapType:MKMapTypeSatellite];
+        default:
+            NSLog(@"Unrecognized Segment Selector.");
+            break;
+    }
 }
 
 @end
