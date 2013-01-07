@@ -16,7 +16,31 @@
     
     if (self) {
         // Create location manager object
+        locationManager = [[CLLocationManager alloc] init];
+        
+        [locationManager setDelegate:self];
+        
+        // Be as accurate as possible
+        [locationManager setDesiredAccuracy:kCLLocationAccuracyBest];
+        
+        // Start looking for its location immediately
+        [locationManager startUpdatingLocation];
     }
+    
+    return self;
+}
+
+- (void)locationManager:(CLLocationManager *)manager
+    didUpdateToLocation:(CLLocation *)newLocation
+           fromLocation:(CLLocation *)oldLocation
+{
+    NSLog(@"%@", newLocation);
+}
+
+- (void)locationManager:(CLLocationManager *)manager
+        didFailWithError:(NSError *)error
+{
+    NSLog(@"Could not find the location: %@", error);
 }
 
 @end
