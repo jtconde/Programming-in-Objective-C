@@ -17,7 +17,8 @@
 // Required property from MKAnnotaiton protocol
 @property (nonatomic, readonly) CLLocationCoordinate2D coordinate;
 
-// Optional property
+// Optional properties
 @property (nonatomic, copy) NSString *title;
+@property (nonatomic, copy) NSString *subtitle;
 
 @end

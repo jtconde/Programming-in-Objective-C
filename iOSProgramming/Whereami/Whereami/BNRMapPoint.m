@@ -12,6 +12,7 @@
 
 @synthesize coordinate;
 @synthesize title;
+@synthesize subtitle;
 
 - (id)initWithCoordinate:(CLLocationCoordinate2D)c title:(NSString *)t
 {
@@ -19,6 +20,14 @@
     if (self) {
         coordinate = c;
         [self setTitle:t];
+        NSDate *dateTagged = [NSDate date];
+        NSString *formatDate = [NSString
+                                stringWithFormat:@"%@",
+                                [NSDateFormatter
+                                localizedStringFromDate:dateTagged
+                                dateStyle:NSDateFormatterShortStyle
+                                timeStyle:NSDateFormatterShortStyle]];
+        [self setSubtitle:formatDate];
     }
     return self;
 }
