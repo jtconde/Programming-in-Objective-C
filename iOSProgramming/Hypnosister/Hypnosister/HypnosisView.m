@@ -23,6 +23,12 @@
     return self;
 }
 
+- (void)setCircleColor:(UIColor *)clr
+{
+    circleColor = clr;
+    [self setNeedsDisplay];
+}
+
 - (void)drawRect:(CGRect)dirtyRect
 {
     CGContextRef ctx = UIGraphicsGetCurrentContext();
@@ -75,6 +81,19 @@
     
     // draw the string
     [text drawInRect:textRect withFont:font];
+}
+
+- (void)motionBegan:(UIEventSubtype)motion withEvent:(UIEvent *)event
+{
+    if (motion == UIEventSubtypeMotionShake) {
+        NSLog(@"Device started shaking!");
+        [self setCircleColor:[UIColor redColor]];
+    }
+}
+
+- (BOOL)canBecomeFirstResponder
+{
+    return YES;
 }
 
 @end
