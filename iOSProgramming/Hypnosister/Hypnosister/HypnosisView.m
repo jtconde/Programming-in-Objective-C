@@ -29,6 +29,21 @@
     [self setNeedsDisplay];
 }
 
+/**
+ * Colors the circles in random colors
+ * Returns a random color
+ * Chapter 4 Bronze Challenge: Colors
+ */
+- (UIColor *)getAssortedColors
+{
+    NSArray *assortedColors = [NSArray arrayWithObjects:[UIColor redColor],
+                               [UIColor magentaColor], [UIColor blueColor],
+                               [UIColor yellowColor], [UIColor orangeColor],
+                               [UIColor cyanColor], [UIColor greenColor],
+                               [UIColor purpleColor], nil];
+    return [assortedColors objectAtIndex:random() % [assortedColors count]];
+}
+
 - (void)drawRect:(CGRect)dirtyRect
 {
     CGContextRef ctx = UIGraphicsGetCurrentContext();
@@ -43,7 +58,6 @@
     float maxRadius = hypot(bounds.size.width, bounds.size.height) / 2.0;
     
     CGContextSetLineWidth(ctx, 10);
-    [[self circleColor] setStroke];
     
     // draw concentric circles from the outside in
     for (float currentRadius = maxRadius; currentRadius > 0; currentRadius -=20)
@@ -51,6 +65,7 @@
         // add a path to the context
         CGContextAddArc(ctx, center.x, center.y, currentRadius, 0.0, M_PI * 2.0,
                         YES);
+        [[self getAssortedColors] setStroke];
         
         // Perform drawing instruction; clears path
         CGContextStrokePath(ctx);
